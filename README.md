@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>周怡萱</title></head>
-<body><strong><h1><span style="color: #0000ff;">周怡萱</span></strong></h1>
+<body><h1><span style="color: #0000ff;">周怡萱</span></h1>
 <p><strong><span style="color: #0000ff;"><img src="https://i.imgur.com/S2rUcK2.jpeg" alt="" width="375" height="500" /></span></strong></p>
 <p>中興大學生命科學系碩一</p>
 <p><a href="https://www.nchu.edu.tw/index1.php">NCHU</a></p>
