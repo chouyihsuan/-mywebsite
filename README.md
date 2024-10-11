@@ -231,18 +231,29 @@
 </table>
 <h3>5. UCSC 與 Ensembl 轉錄資訊圖</h3>
 <p>以下是 UCSC 與 Ensembl 中 Spartin 基因轉錄異構體的圖像比較，以及它們的詳細資訊：</p>
+
 <!-- UCSC 轉錄資訊文字 -->
 <p><strong>UCSC 轉錄資訊：</strong> Spartin 基因在 UCSC 中有 5 個轉錄異構體。這些異構體的外顯子數量不同，其中包含 9 個和 10 個外顯子的轉錄異構體分別為 ENST00000355182 和 ENST00000558432。詳細資訊可參考 <a href="https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&amp;lastVirtModeType=default&amp;lastVirtModeExtraState=&amp;virtModeType=default&amp;virtMode=0&amp;nonVirtPosition=&amp;position=chr13%3A36301638%2D36346394&amp;hgsid=2356447425_9dnaNVAb7HA17afP19TfXTLqqPWr" target="_blank" rel="noopener">UCSC Gene Browser</a>。</p>
+
 <!-- 插入 UCSC 轉錄資訊圖並添加圖說 -->
-<figure><a href="https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&amp;lastVirtModeType=default&amp;lastVirtModeExtraState=&amp;virtModeType=default&amp;virtMode=0&amp;nonVirtPosition=&amp;position=chr13%3A36301638%2D36346394&amp;hgsid=2356447425_9dnaNVAb7HA17afP19TfXTLqqPWr" target="_blank" rel="noopener"> <img src="https://i.imgur.com/Ij7xZVl.png" alt="UCSC 中 Spartin 基因的轉錄異構體圖" /> </a>
-<figcaption>圖 2：UCSC 基因瀏覽器中 Spartin 基因的轉錄異構體，其中顯示不同異構體的外顯子和內含子結構。</figcaption>
+<figure>
+    <a href="https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&amp;lastVirtModeType=default&amp;lastVirtModeExtraState=&amp;virtModeType=default&amp;virtMode=0&amp;nonVirtPosition=&amp;position=chr13%3A36301638%2D36346394&amp;hgsid=2356447425_9dnaNVAb7HA17afP19TfXTLqqPWr" target="_blank" rel="noopener">
+        <img src="https://i.imgur.com/Ij7xZVl.png" alt="UCSC 中 Spartin 基因的轉錄異構體圖" />
+    </a>
+    <figcaption>圖 2：UCSC 基因瀏覽器中 Spartin 基因的轉錄異構體，其中顯示不同異構體的外顯子和內含子結構。</figcaption>
 </figure>
+
 <!-- Ensembl 轉錄資訊文字 -->
 <p><strong>Ensembl 轉錄資訊：</strong> Spartin 基因在 Ensembl 中有 12 個轉錄異構體。其中最長的轉錄資訊為 SPART-203，共 4944 個鹼基，包含 9 個外顯子，注釋有 20 個域和特徵，關聯 28671 個變異等位基因，映射至 572 個寡核苷酸探針。最長的內含子位於內含子 5-6，長度為 12,153 個鹼基。詳細資訊請參考 <a href="https://www.ensembl.org/Homo_sapiens/Transcript/Exons?db=core;g=ENSG00000133104;r=13:36301640-36370180;t=ENST00000355182" target="_blank" rel="noopener">Ensembl 網站</a>。</p>
+
 <!-- 插入 Ensembl 轉錄資訊圖並添加圖說 -->
-<figure><img src="https://i.imgur.com/UGHYwnQ.png" alt="Ensembl 中 Spartin 基因所有轉錄資訊" />
-<figcaption>圖 3：此圖顯示了 Ensembl 中 Spartin 基因的所有轉錄資訊，包括轉錄的剪接變體及其他相關信息。</figcaption>
+<figure>
+    <img src="https://i.imgur.com/UGHYwnQ.png" alt="Ensembl 中 Spartin 基因所有轉錄資訊" />
+    <figcaption>圖 3：此圖顯示了 Ensembl 中 Spartin 基因的所有轉錄資訊，包括轉錄的剪接變體及其他相關信息。</figcaption>
 </figure>
+
+<!-- 加入 Intron 1 基因序列連結 -->
+<p>點擊此處查看 Spartin Intron 1 的完整基因序列：<a href="https://chouyihsuan.github.io/SPART/" target="_blank">Spartin Intron 1 序列</a>。</p>
 <h3>6. 基因表達的組織</h3>
 <table>
 <thead>
