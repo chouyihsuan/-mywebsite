@@ -256,49 +256,50 @@
 <p>Spartin 基因的突變與遺傳性痙攣性截癱（SPG20）有關，這是一種神經退行性疾病。Troyer syndrome 是與 Spartin 基因相關的疾病，其特徵包括痙攣性截癱、說話困難、情緒不穩和短小身材，但通常壽命正常。更多相關的表型和疾病信息可以在 <a href="https://omim.org/entry/607111" target="_blank" rel="noopener">OMIM - SPG20</a> 上找到。</p>
  </div>
     </div>
- <h3 class="arrow down">作業三 - EZH2 研究介紹</h3>
-        <div class="content">
-            <h2>研究背景</h2>
-            <p>
-                這項研究專注於理解 <strong>EZH2</strong> 如何透過不同的異構體形式來調控 <strong>Polycomb Repressive Complex 2 (PRC2)</strong>，
-                此複合體在細胞分化和增殖中負責催化組蛋白 H3 第 27 位賴氨酸（H3K27）的甲基化，進而影響基因的靜默或活化。
-                研究揭示 EZH2 的外顯子 14 在減數分裂和有絲分裂期間不同步調控，從而產生不同的異構體，這些異構體具有不同的功能。
-            </p>
+ <div class="container">
+    <h3 class="arrow down">作業三 - EZH2 研究介紹</h3>
+    <div class="content">
+        <h3>研究背景</h3>
+        <p>
+            這項研究專注於理解 <strong>EZH2</strong> 如何透過不同的異構體形式來調控 <strong>Polycomb Repressive Complex 2 (PRC2)</strong>，
+            此複合體在細胞分化和增殖中負責催化組蛋白 H3 第 27 位賴氨酸（H3K27）的甲基化，進而影響基因的靜默或活化。
+            研究揭示 EZH2 的外顯子 14 在減數分裂和有絲分裂期間不同步調控，從而產生不同的異構體，這些異構體具有不同的功能。
+        </p>
 
-            <h2>研究結果</h2>
-            <p>
-                研究結果顯示，EZH2 的異構體透過跳過外顯子 14 或截短外顯子 3 和 8，形成兩種主要的異構體。
-                包含外顯子 14 的異構體 <strong>ex14-EZH2</strong> 在有絲分裂期間上調，主要參與 H3K27me3 的維持；
-                而缺少外顯子 14 的異構體 <strong>ex14D-EZH2</strong> 主要出現在減數分裂的精母細胞中，負責 H3K27me2 的建立。
-            </p>
+        <h3>研究結果</h3>
+        <p>
+            研究結果顯示，EZH2 的異構體透過跳過外顯子 14 或截短外顯子 3 和 8，形成兩種主要的異構體。
+            包含外顯子 14 的異構體 <strong>ex14-EZH2</strong> 在有絲分裂期間上調，主要參與 H3K27me3 的維持；
+            而缺少外顯子 14 的異構體 <strong>ex14D-EZH2</strong> 主要出現在減數分裂的精母細胞中，負責 H3K27me2 的建立。
+        </p>
 
-            <h2>EZH2 異構體比較</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>異構體</th>
-                        <th>外顯子 14 狀態</th>
-                        <th>功能</th>
-                        <th>相關階段</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>ex14-EZH2</td>
-                        <td>存在</td>
-                        <td>催化 H3K27me3，有助於染色質複製期間維持基因靜默</td>
-                        <td>有絲分裂</td>
-                    </tr>
-                    <tr>
-                        <td>ex14D-EZH2</td>
-                        <td>缺失</td>
-                        <td>建立 H3K27me2，促進胚胎幹細胞分化</td>
-                        <td>減數分裂</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+        <h3>EZH2 異構體比較</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>異構體</th>
+                    <th>外顯子 14 狀態</th>
+                    <th>功能</th>
+                    <th>相關階段</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ex14-EZH2</td>
+                    <td>存在</td>
+                    <td>催化 H3K27me3，有助於染色質複製期間維持基因靜默</td>
+                    <td>有絲分裂</td>
+                </tr>
+                <tr>
+                    <td>ex14D-EZH2</td>
+                    <td>缺失</td>
+                    <td>建立 H3K27me2，促進胚胎幹細胞分化</td>
+                    <td>減數分裂</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
+</div>
 
    
     <script>
