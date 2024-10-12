@@ -1,5 +1,6 @@
 <html>
-
+<h3 class="arrow down">作業一</h3>
+<div class="content">
 <head>
     <meta charset="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
@@ -26,65 +27,6 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        .personal-info {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
-        .personal-info img {
-            border-radius: 10px;
-            width: 200px;
-            height: auto;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .personal-info h1 {
-            font-size: 2em;
-            color: #0073e6;
-            margin-top: 20px;
-        }
-
-        .personal-info p {
-            font-size: 1.2em;
-            color: #555;
-            margin: 5px 0;
-        }
-
-        .personal-info a {
-            font-weight: bold;
-            color: #0073e6;
-            text-decoration: none;
-        }
-
-        .personal-info a:hover {
-            text-decoration: underline;
-        }
-
-        .contact-table {
-            margin: 20px auto;
-            width: 60%;
-            border-collapse: collapse;
-        }
-
-        .contact-table td {
-            padding: 10px 20px;
-            border: 1px solid #ddd;
-        }
-
-        .contact-table td:first-child {
-            font-weight: bold;
-            background-color: #f7f7f7;
-        }
-
-        a {
-            color: #00539C;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
         .arrow {
             cursor: pointer;
             font-size: 20px;
@@ -106,7 +48,9 @@
         }
     </style>
 </head>
-
+</div>
+<h3 class="arrow down">作業二</h3>
+<div class="content"> 
 <body>
     <div class="container">
         <h3 class="arrow down">作業一</h3>
@@ -134,6 +78,26 @@
             </div>
         </div>
     </div>
+
+    <div class="container">
+        <h3 class="arrow down">作業二 - Spartin 基因資訊</h3>
+        <div class="content">
+            <!-- 這裡是 Spartin 基因資訊的內容 -->
+        </div>
+    </div>
+
+    <script>
+        const arrows = document.querySelectorAll('.arrow');
+        arrows.forEach(arrow => {
+            arrow.addEventListener('click', () => {
+                const content = arrow.nextElementSibling;
+                content.style.display = content.style.display === 'block' ? 'none' : 'block';
+                arrow.classList.toggle('up');
+                arrow.classList.toggle('down');
+            });
+        });
+    </script>
+</body>
 
     <script>
         const arrows = document.querySelectorAll('.arrow');
@@ -298,3 +262,4 @@
         });
     </script>
 </body>
+</div>
