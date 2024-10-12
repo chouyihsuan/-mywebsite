@@ -257,7 +257,6 @@
  </div>
     </div>
  <div class="container">
-    <div class="container">
     <h3 class="arrow down">作業三 - EZH2 研究介紹</h3>
     <div class="content">
         <h2>研究背景</h2>
