@@ -257,6 +257,7 @@
  </div>
     </div>
  <div class="container">
+    <div class="container">
     <h3 class="arrow down">作業三 - EZH2 研究介紹</h3>
     <div class="content">
         <h2>研究背景</h2>
@@ -266,18 +267,17 @@
             研究揭示 EZH2 的外顯子 14 在減數分裂和有絲分裂期間不同步調控，從而產生不同的異構體，這些異構體具有不同的功能。
         </p>
 
-        <h2>研究重點</h2>
-        <p>
-            雖然 EZH2 的剪接異構體可以涉及多個外顯子的變異（如外顯子 3 和 8），但本研究主要聚焦於**外顯子 14** 的變異。
-            外顯子 3 和 8 的變異在生物樣本中的表達量非常低，因此在實驗中不易檢測到，也未被認為有顯著的生物學意義。
-            本文重點研究了外顯子 14 的剪接如何在有絲分裂與減數分裂中表現差異，並探討其與 H3K27 甲基化過程的關聯。
-        </p>
-
         <h2>研究結果</h2>
         <p>
-            研究結果顯示，EZH2 的異構體透過跳過外顯子 14 形成不同的異構體。包含外顯子 14 的異構體 <strong>ex14-EZH2</strong>
-            在有絲分裂期間上調，主要參與 H3K27me3 的維持；而缺少外顯子 14 的異構體 <strong>ex14D-EZH2</strong> 主要出現在減數分裂的精母細胞中，
-            負責 H3K27me2 的建立。這些異構體的差異表現對細胞分化和增殖的調控至關重要。
+            研究結果顯示，EZH2 的異構體主要透過跳過外顯子 14 形成兩種主要的異構體。
+            包含外顯子 14 的異構體 <strong>ex14-EZH2</strong> 在有絲分裂期間上調，主要參與 H3K27me3 的維持；
+            而缺少外顯子 14 的異構體 <strong>ex14D-EZH2</strong> 主要出現在減數分裂的精母細胞中，負責 H3K27me2 的建立。
+        </p>
+
+        <h2>外顯子 3 和 8 的剪接</h2>
+        <p>
+            此外，雖然 <strong>外顯子 3 和 8</strong> 也有可能發生剪接變異，但這些事件較為罕見，且難以偵測。因此，本研究主要集中在
+            <strong>外顯子 14</strong> 的剪接變異。實驗結果顯示，外顯子 14 的剪接與不同細胞分裂階段中的 H3K27 甲基化標記有關。
         </p>
 
         <h2>EZH2 異構體比較</h2>
@@ -306,17 +306,16 @@
             </tbody>
         </table>
     </div>
-   
-    <script>
-        const arrows = document.querySelectorAll('.arrow');
-        arrows.forEach(arrow => {
-            arrow.addEventListener('click', () => {
-                const content = arrow.nextElementSibling;
-                content.style.display = content.style.display === 'block' ? 'none' : 'block';
-                arrow.classList.toggle('up');
-                arrow.classList.toggle('down');
-            });
+</div>
+
+<script>
+    const arrows = document.querySelectorAll('.arrow');
+    arrows.forEach(arrow => {
+        arrow.addEventListener('click', () => {
+            const content = arrow.nextElementSibling;
+            content.style.display = content.style.display === 'block' ? 'none' : 'block';
+            arrow.classList.toggle('up');
+            arrow.classList.toggle('down');
         });
-    </script>
-</body>
-</html>
+    });
+</script>
