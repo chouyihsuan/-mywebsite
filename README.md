@@ -6,29 +6,76 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f0f0f0;
+            line-height: 1.8;
+            background-color: #f7f9fc;
             color: #333;
             padding: 20px;
         }
 
         h1, h2, h3 {
-            color: #00539C;
+            color: #0073e6;
         }
 
         .container {
-            max-width: 800px;
+            max-width: 700px;
             margin: auto;
             background: #fff;
-            padding: 20px;
-            border-radius: 8px;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .personal-info img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            margin-bottom: 15px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .personal-info h1 {
+            font-size: 2.2em;
+            color: #0073e6;
+            margin-top: 10px;
+        }
+
+        .personal-info p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .personal-info a {
+            color: #0073e6;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .personal-info a:hover {
+            text-decoration: underline;
+        }
+
+        table {
+            margin: 20px 0;
+            width: 100%;
+        }
+
+        table td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        table td:first-child {
+            font-weight: bold;
+            background-color: #f9f9f9;
         }
 
         .arrow {
             cursor: pointer;
             font-size: 20px;
             user-select: none;
+            color: #0073e6;
+            margin-top: 20px;
         }
 
         .arrow.down::before {
@@ -43,6 +90,7 @@
 
         .content {
             display: none;
+            padding-top: 10px;
         }
     </style>
 </head>
@@ -56,7 +104,7 @@
                 <p>中興大學生命科學系碩士一年級</p>
                 <p><a href="https://www.nchu.edu.tw/index1.php" target="_blank">中興大學官網</a></p>
 
-                <table class="contact-table">
+                <table>
                     <tr>
                         <td>信箱</td>
                         <td><a href="mailto:ryan061755@gmail.com">ryan061755@gmail.com</a></td>
@@ -73,7 +121,6 @@
             </div>
         </div>
     </div>
-
     <div class="container">
         <h3 class="arrow down">作業二 - Spartin 基因資訊</h3>
         <div class="content">
