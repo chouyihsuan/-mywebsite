@@ -91,9 +91,6 @@
         });
     </script>
 <body>
-    <div class="container">
-        <h3 class="arrow down">作業二 - Spartin 基因資訊</h3>
-        <div class="content">
             <p>Spartin 基因最早在 1999 年的文獻中被研究，該研究發表於《Nature Genetics》，介紹了 Troyer 綜合徵的致病基因。這種病症是一種罕見的遺傳性痙攣性截癱，與 SPG20 基因的突變相關，其特徵包括下肢痙攣、肌肉無力、發育遲緩以及情緒問題等。詳細文獻可參考 <a href="https://pubmed.ncbi.nlm.nih.gov/10610178/" target="_blank">Nature Genetics, 1999</a>。</p>
 
             <h3>1. 官方名稱、別名、Accession Number</h3>
