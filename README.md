@@ -79,20 +79,6 @@
         <div class="content">
         </div>
     </div>
-
-    <script>
-        const arrows = document.querySelectorAll('.arrow');
-        arrows.forEach(arrow => {
-            arrow.addEventListener('click', () => {
-                const content = arrow.nextElementSibling;
-                content.style.display = content.style.display === 'block' ? 'none' : 'block';
-                arrow.classList.toggle('up');
-                arrow.classList.toggle('down');
-            });
-        });
-    </script>
-</body>
-
     <script>
         const arrows = document.querySelectorAll('.arrow');
         arrows.forEach(arrow => {
