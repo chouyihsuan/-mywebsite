@@ -245,19 +245,13 @@
 <h3>8. 相關表型或疾病</h3>
 <p>Spartin 基因的突變與遺傳性痙攣性截癱（SPG20）有關，這是一種神經退行性疾病。Troyer syndrome 是與 Spartin 基因相關的疾病，其特徵包括痙攣性截癱、說話困難、情緒不穩和短小身材，但通常壽命正常。更多相關的表型和疾病信息可以在 <a href="https://omim.org/entry/607111" target="_blank" rel="noopener">OMIM - SPG20</a> 上找到。</p>
 <script>
-        const arrows = document.querySelectorAll('.arrow');
+        const arrows = document.querySelectorAll('.arrow'); // 新增選擇所有箭頭的功能
         arrows.forEach(arrow => {
             arrow.addEventListener('click', () => {
-                const content = arrow.nextElementSibling;
-                if (content.style.display === "block") {
-                    content.style.display = "none";
-                    arrow.classList.remove('up');
-                    arrow.classList.add('down');
-                } else {
-                    content.style.display = "block";
-                    arrow.classList.remove('down');
-                    arrow.classList.add('up');
-                }
+                const content = arrow.nextElementSibling; // 選擇下一個元素（即內容部分）
+                content.style.display = content.style.display === 'block' ? 'none' : 'block'; // 切換顯示和隱藏
+                arrow.classList.toggle('up'); // 切換箭頭方向
+                arrow.classList.toggle('down');
             });
         });
     </script>
