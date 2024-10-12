@@ -85,70 +85,68 @@
             text-decoration: underline;
         }
 
-        img {
-            max-width: 100%;
-            height: auto;
-            margin-top: 20px;
-            margin-bottom: 10px;
+        .arrow {
+            cursor: pointer;
+            font-size: 20px;
+            user-select: none;
         }
 
-        figure {
-            text-align: center;
-            margin: 20px 0;
+        .arrow.down::before {
+            content: "▼";
+            margin-right: 5px;
         }
 
-        figcaption {
-            font-size: 0.9em;
-            color: #555;
+        .arrow.up::before {
+            content: "▲";
+            margin-right: 5px;
         }
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
-
-        table, th, td {
-            border: 1px solid #ddd;
-        }
-
-        th, td {
-            padding: 12px;
-            text-align: left;
-        }
-
-        th {
-            background-color: #f2f2f2;
+        .content {
+            display: none;
         }
     </style>
 </head>
 
 <body>
-    <!-- 周怡萱個人介紹 -->
     <div class="container">
-        <div class="personal-info">
-            <img src="https://i.imgur.com/S2rUcK2.jpeg" alt="周怡萱">
-            <h1>周怡萱</h1>
-            <p>中興大學生命科學系碩士一年級</p>
-            <p><a href="https://www.nchu.edu.tw/index1.php" target="_blank">中興大學官網</a></p>
+        <h3 class="arrow down">作業一</h3>
+        <div class="content">
+            <div class="personal-info">
+                <img src="https://i.imgur.com/S2rUcK2.jpeg" alt="周怡萱">
+                <h1>周怡萱</h1>
+                <p>中興大學生命科學系碩士一年級</p>
+                <p><a href="https://www.nchu.edu.tw/index1.php" target="_blank">中興大學官網</a></p>
 
-            <table class="contact-table">
-                <tr>
-                    <td>信箱</td>
-                    <td><a href="mailto:ryan061755@gmail.com">ryan061755@gmail.com</a></td>
-                </tr>
-                <tr>
-                    <td>電話</td>
-                    <td>0981-935-785</td>
-                </tr>
-                <tr>
-                    <td>地址</td>
-                    <td>402台中市南區興大路145號</td>
-                </tr>
-            </table>
+                <table class="contact-table">
+                    <tr>
+                        <td>信箱</td>
+                        <td><a href="mailto:ryan061755@gmail.com">ryan061755@gmail.com</a></td>
+                    </tr>
+                    <tr>
+                        <td>電話</td>
+                        <td>0981-935-785</td>
+                    </tr>
+                    <tr>
+                        <td>地址</td>
+                        <td>402台中市南區興大路145號</td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </div>
+
+    <script>
+        const arrows = document.querySelectorAll('.arrow');
+        arrows.forEach(arrow => {
+            arrow.addEventListener('click', () => {
+                const content = arrow.nextElementSibling;
+                content.style.display = content.style.display === 'block' ? 'none' : 'block';
+                arrow.classList.toggle('up');
+                arrow.classList.toggle('down');
+            });
+        });
+    </script>
+</body>
 
     <!-- Spartin 基因資訊 -->
     <div class="container">
