@@ -1,6 +1,4 @@
 <html>
-<h3 class="arrow down">作業一</h3>
-<div class="content">
 <head>
     <meta charset="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
@@ -48,9 +46,6 @@
         }
     </style>
 </head>
-</div>
-<h3 class="arrow down">作業二</h3>
-<div class="content"> 
 <body>
     <div class="container">
         <h3 class="arrow down">作業一</h3>
@@ -82,7 +77,6 @@
     <div class="container">
         <h3 class="arrow down">作業二 - Spartin 基因資訊</h3>
         <div class="content">
-            <!-- 這裡是 Spartin 基因資訊的內容 -->
         </div>
     </div>
 
