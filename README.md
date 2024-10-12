@@ -256,7 +256,7 @@
 <p>Spartin 基因的突變與遺傳性痙攣性截癱（SPG20）有關，這是一種神經退行性疾病。Troyer syndrome 是與 Spartin 基因相關的疾病，其特徵包括痙攣性截癱、說話困難、情緒不穩和短小身材，但通常壽命正常。更多相關的表型和疾病信息可以在 <a href="https://omim.org/entry/607111" target="_blank" rel="noopener">OMIM - SPG20</a> 上找到。</p>
  </div>
     </div>
- <div class="container">
+<div class="container">
     <h3 class="arrow down">作業三 - EZH2 研究介紹</h3>
     <div class="content">
         <h2>研究背景</h2>
@@ -303,11 +303,11 @@
         </ol>
 
         <h2>引子設計表格</h2>
-        <p>以下是根據引子設計原則，詳細列出的引子信息：</p>
+        <p>以下是根據三種設計情境詳細列出的引子信息：</p>
         <table>
             <thead>
                 <tr>
-                    <th>引子對</th>
+                    <th>設計場景</th>
                     <th>Forward Primer</th>
                     <th>Reverse Primer</th>
                     <th>功能</th>
@@ -315,22 +315,28 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>引子對 1（區分兩種異構體）</td>
-                    <td>位於外顯子 13，延伸至不包含外顯子 14 的區域</td>
-                    <td>位於外顯子 15，擴增範圍跳過外顯子 14</td>
-                    <td>產生不同大小的片段，區分含有和不含外顯子 14 的異構體</td>
-                </tr>
-                <tr>
-                    <td>引子對 2（專門擴增不包含外顯子 14 的異構體）</td>
-                    <td>位於外顯子 13，延伸到外顯子 15</td>
-                    <td>位於外顯子 15，跳過外顯子 14</td>
-                    <td>專門擴增不包含外顯子 14 的異構體</td>
-                </tr>
-                <tr>
-                    <td>引子對 3（擴增所有異構體）</td>
-                    <td>位於外顯子 10，跨越到外顯子 11</td>
+                    <td>區分兩種異構體（不同大小）</td>
+                    <td>位於外顯子 13，延伸至外顯子 15（跨越外顯子 14）</td>
                     <td>位於外顯子 16</td>
-                    <td>擴增所有異構體</td>
+                    <td>產生兩個不同大小的片段來區分含有和不含外顯子 14 的異構體</td>
+                </tr>
+                <tr>
+                    <td>擴增所有異構體（總異構體）</td>
+                    <td>位於外顯子 10，跨越至外顯子 11</td>
+                    <td>位於外顯子 16</td>
+                    <td>擴增所有異構體，包含所有主要區域</td>
+                </tr>
+                <tr>
+                    <td>專門擴增 ex14-EZH2</td>
+                    <td>位於外顯子 13</td>
+                    <td>位於外顯子 14</td>
+                    <td>專門擴增含有外顯子 14 的異構體</td>
+                </tr>
+                <tr>
+                    <td>專門擴增 ex14D-EZH2</td>
+                    <td>位於外顯子 13</td>
+                    <td>位於外顯子 15（跳過外顯子 14）</td>
+                    <td>專門擴增不含外顯子 14 的異構體</td>
                 </tr>
             </tbody>
         </table>
@@ -341,6 +347,7 @@
         </p>
     </div>
 </div>
+
 <script>
     const arrows = document.querySelectorAll('.arrow');
     arrows.forEach(arrow => {
