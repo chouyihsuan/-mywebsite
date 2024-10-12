@@ -146,13 +146,13 @@
             });
         });
     </script>
-</body>
-<div class="container">
-    <h3 class="arrow down">作業二 - Spartin 基因資訊</h3>
-    <div class="content">
-        <p>Spartin 基因最早在 1999 年的文獻中被研究，該研究發表於《Nature Genetics》，介紹了 Troyer 綜合徵的致病基因。這種病症是一種罕見的遺傳性痙攣性截癱，與 SPG20 基因的突變相關，其特徵包括下肢痙攣、肌肉無力、發育遲緩以及情緒問題等。詳細文獻可參考 <a href="https://pubmed.ncbi.nlm.nih.gov/10610178/" target="_blank">Nature Genetics, 1999</a>。</p>
+<body>
+    <div class="container">
+        <h3 class="arrow down">作業二 - Spartin 基因資訊</h3>
+        <div class="content">
+            <p>Spartin 基因最早在 1999 年的文獻中被研究，該研究發表於《Nature Genetics》，介紹了 Troyer 綜合徵的致病基因。這種病症是一種罕見的遺傳性痙攣性截癱，與 SPG20 基因的突變相關，其特徵包括下肢痙攣、肌肉無力、發育遲緩以及情緒問題等。詳細文獻可參考 <a href="https://pubmed.ncbi.nlm.nih.gov/10610178/" target="_blank">Nature Genetics, 1999</a>。</p>
 
-        <h3>1. 官方名稱、別名、Accession Number</h3>
+            <h3>1. 官方名稱、別名、Accession Number</h3>
         <table>
             <thead>
                 <tr>
@@ -281,13 +281,20 @@
 <h3>8. 相關表型或疾病</h3>
 <p>Spartin 基因的突變與遺傳性痙攣性截癱（SPG20）有關，這是一種神經退行性疾病。Troyer syndrome 是與 Spartin 基因相關的疾病，其特徵包括痙攣性截癱、說話困難、情緒不穩和短小身材，但通常壽命正常。更多相關的表型和疾病信息可以在 <a href="https://omim.org/entry/607111" target="_blank" rel="noopener">OMIM - SPG20</a> 上找到。</p>
 <script>
-    const arrows = document.querySelectorAll('.arrow');
-    arrows.forEach(arrow => {
-        arrow.addEventListener('click', () => {
-            const content = arrow.nextElementSibling;
-            content.style.display = content.style.display === 'block' ? 'none' : 'block';
-            arrow.classList.toggle('up');
-            arrow.classList.toggle('down');
+        const arrows = document.querySelectorAll('.arrow');
+        arrows.forEach(arrow => {
+            arrow.addEventListener('click', () => {
+                const content = arrow.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                    arrow.classList.remove('up');
+                    arrow.classList.add('down');
+                } else {
+                    content.style.display = "block";
+                    arrow.classList.remove('down');
+                    arrow.classList.add('up');
+                }
+            });
         });
-    });
-</script>
+    </script>
+</body>
