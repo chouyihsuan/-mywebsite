@@ -345,51 +345,37 @@
             <li>針對每種異構體設計兩組特異性引子</li>
         </ol>
 
-       <h2>引子設計表格</h2>
+       <h2>擴增所有異構體的 Primer 設計</h2>
+        <p>這裡是擴增所有異構體（總異構體）的引子，Forward Primer 跨越外顯子 16 和 17，Reverse Primer 跨越外顯子 17 和 18。</p>
         <table>
             <thead>
                 <tr>
-                    <th>設計場景</th>
-                    <th>Forward Primer</th>
-                    <th>Reverse Primer</th>
-                    <th>功能</th>
+                    <th>Primer 名稱</th>
+                    <th>Forward Primer 序列</th>
+                    <th>Reverse Primer 序列</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>區分兩種異構體（不同大小片段）</td>
-                    <td>位於外顯子 12，延伸至外顯子 13</td>
-                    <td>位於外顯子 16</td>
-                    <td>產生兩個不同大小的片段來區分含有和不含外顯子 14 的異構體</td>
-                </tr>
-                <tr>
                     <td>擴增所有異構體（總異構體）</td>
-                    <td>位於外顯子 10，跨越至外顯子 11</td>
-                    <td>位於外顯子 16</td>
-                    <td>擴增所有異構體，包含所有主要區域</td>
-                </tr>
-                <tr>
-                    <td>專門擴增 ex14-EZH2</td>
-                    <td>位於外顯子 13</td>
-                    <td>位於外顯子 14</td>
-                    <td>專門擴增含有外顯子 14 的異構體</td>
-                </tr>
-                <tr>
-                    <td>專門擴增 ex14D-EZH2</td>
-                    <td>位於外顯子 13</td>
-                    <td>位於外顯子 15（跳過外顯子 14）</td>
-                    <td>專門擴增不含外顯子 14 的異構體</td>
+                    <td>位於外顯子 16 和 17 的交界處</td>
+                    <td>位於外顯子 17 和 18 的交界處</td>
                 </tr>
             </tbody>
         </table>
 
-        <h3>跨越外顯子的原因</h3>
+        <h3>設計原因</h3>
         <p>
-            設計引子時，考慮了跨越外顯子的必要性，以避免擴增到基因組 DNA（gDNA）。基因組 DNA 包含內含子，這可能導致擴增的片段比成熟 mRNA 長。因此，跨越外顯子的引子能確保只擴增經過剪接的成熟 mRNA，避免擴增未剪接的 DNA。
+            此引子設計的目的是避免擴增基因組 DNA（gDNA），因為基因組 DNA 中的內含子會導致擴增片段比 mRNA 長。通過跨越外顯子的設計，這些引子能夠只擴增成熟的 mRNA 片段。
         </p>
+
+        <figure>
+            <img src="https://i.imgur.com/Z003OQp.png" alt="擴增所有異構體的 primer 設計圖" width="600">
+            <figcaption>圖 1：此圖顯示了擴增所有異構體（總異構體）的 primer 設計，Forward Primer 跨越外顯子 16 和 17，Reverse Primer 跨越外顯子 17 和 18。來源：NCBI Primer 設計工具。</figcaption>
+        </figure>
+
     </div>
 </div>
-
 <script>
     const arrows = document.querySelectorAll('.arrow');
     arrows.forEach(arrow => {
