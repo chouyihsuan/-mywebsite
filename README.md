@@ -345,28 +345,35 @@
             <li>針對每種異構體設計兩組特異性引子</li>
         </ol>
 
-        <h2>擴增所有異構體的 Primer 設計</h2>
-        <p>這裡是擴增所有異構體（總異構體）的引子，Forward Primer 跨越外顯子 16 和 17，Reverse Primer 跨越外顯子 17 和 18。</p>
+        <h2>引子設計表格</h2>
         <table>
             <thead>
                 <tr>
-                    <th>Primer 名稱</th>
+                    <th>設計場景</th>
                     <th>Forward Primer 序列</th>
                     <th>Reverse Primer 序列</th>
+                    <th>設計概念</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
+                    <td>區分兩種異構體（不同大小片段）</td>
+                    <td>Forward Primer 位於外顯子 13</td>
+                    <td>Reverse Primer 位於外顯子 15</td>
+                    <td>擴增的片段不同，以區分含有或不含外顯子 14 的異構體</td>
+                </tr>
+                <tr>
                     <td>擴增所有異構體（總異構體）</td>
-                    <td>位於外顯子 16 和 17 的交界處</td>
-                    <td>位於外顯子 17 和 18 的交界處</td>
+                    <td>Forward Primer 跨越外顯子 16 和 17</td>
+                    <td>Reverse Primer 跨越外顯子 17 和 18</td>
+                    <td>擴增所有異構體，包含所有主要區域</td>
                 </tr>
             </tbody>
         </table>
 
         <h3>設計原因</h3>
         <p>
-            此引子設計的目的是為了能夠擴增所有異構體，並生成同樣大小的片段。
+            此引子設計的目的是避免擴增基因組 DNA（gDNA），以確保只擴增成熟的 mRNA 片段。
         </p>
 
         <figure>
@@ -377,19 +384,6 @@
         <figure>
             <img src="https://i.imgur.com/IeX8qMm.png" alt="Primer 設計詳細資訊">
             <figcaption>圖 2：此圖顯示了兩組 primer 的詳細資訊，選擇了第二組引子，因為第一組引子的 3' 端有重複的 T 序列，這樣的設計容易造成非特異性擴增。</figcaption>
-        </figure>
-
-        <h2>使用 Primer3 的設計過程</h2>
-        <p>在設計 ex14-EZH2 特異性引子時，Primer3 設計的條件如下：</p>
-        <ul>
-            <li>目標區域（target）：外顯子 13 和 15</li>
-            <li>包含區域（include）：外顯子 14</li>
-            <li>排除區域（exclude）：其他非相關的區域</li>
-        </ul>
-
-        <figure>
-            <img src="https://i.imgur.com/RVdL7jJ.png" alt="Primer3 設計圖">
-            <figcaption>圖 3：使用 Primer3 設計 ex14-EZH2 的 primer。由於適合的位置難以找到，因此放寬了篩選條件。</figcaption>
         </figure>
     </div>
 </div>
