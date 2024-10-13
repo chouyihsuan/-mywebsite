@@ -292,10 +292,10 @@
             </tbody>
         </table>
 
-        <!-- 圖片部分 -->
+       <!-- 在此處插入圖片 -->
         <figure>
-            <img src="https://i.ibb.co/f4bR19N/image.png" alt="EZH2 基因的轉錄圖">
-            <figcaption>圖：EZH2 基因包含 20 個外顯子，選擇性剪接會影響異構體的功能。</figcaption>
+            <img src="https://i.ibb.co/f4bR19N/Spartin-Gene-Transcript.png" alt="EZH2 Transcript Image">
+            <figcaption>EZH2 轉錄本示意圖，包含 20 個外顯子。</figcaption>
         </figure>
 
         <h2>EZH2 基因轉錄資訊</h2>
