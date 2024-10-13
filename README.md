@@ -335,45 +335,37 @@
             </tbody>
         </table>
 
-        <h2>引子設計概念</h2>
+         <h2>引子設計概念</h2>
         <p>
-            引子設計的考慮包含以下三種場景：
+            引子設計的考慮包含以下兩種情況：
         </p>
         <ol>
             <li>設計引子來區分兩種異構體（產生不同大小的片段）</li>
             <li>設計引子來擴增所有異構體（總異構體）</li>
-            <li>針對每種異構體設計兩組特異性引子</li>
         </ol>
 
-        <h2>引子設計表格</h2>
+        <h2>NCBI Primer 設計</h2>
+        <p>這裡是擴增所有異構體（總異構體）的引子，Forward Primer 跨越外顯子 16 和 17，Reverse Primer 跨越外顯子 17 和 18。</p>
         <table>
             <thead>
                 <tr>
-                    <th>設計場景</th>
+                    <th>Primer 名稱</th>
                     <th>Forward Primer 序列</th>
                     <th>Reverse Primer 序列</th>
-                    <th>設計概念</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>區分兩種異構體（不同大小片段）</td>
-                    <td>Forward Primer 位於外顯子 13</td>
-                    <td>Reverse Primer 位於外顯子 15</td>
-                    <td>擴增的片段不同，以區分含有或不含外顯子 14 的異構體</td>
-                </tr>
-                <tr>
                     <td>擴增所有異構體（總異構體）</td>
-                    <td>Forward Primer 跨越外顯子 16 和 17</td>
-                    <td>Reverse Primer 跨越外顯子 17 和 18</td>
-                    <td>擴增所有異構體，包含所有主要區域</td>
+                    <td>位於外顯子 16 和 17 的交界處</td>
+                    <td>位於外顯子 17 和 18 的交界處</td>
                 </tr>
             </tbody>
         </table>
 
         <h3>設計原因</h3>
         <p>
-            此引子設計的目的是避免擴增基因組 DNA（gDNA），以確保只擴增成熟的 mRNA 片段。
+            此引子設計的目的是避免擴增基因組 DNA（gDNA），因為基因組 DNA 中的內含子會導致擴增片段比 mRNA 長。通過跨越外顯子的設計，這些引子能夠只擴增成熟的 mRNA 片段。
         </p>
 
         <figure>
@@ -384,6 +376,21 @@
         <figure>
             <img src="https://i.imgur.com/IeX8qMm.png" alt="Primer 設計詳細資訊">
             <figcaption>圖 2：此圖顯示了兩組 primer 的詳細資訊，選擇了第二組引子，因為第一組引子的 3' 端有重複的 T 序列，這樣的設計容易造成非特異性擴增。</figcaption>
+        </figure>
+
+        <h2>Primer3 設計</h2>
+        <p>在設計 ex14-EZH2 和 ex14D-EZH2 特異性引子時，Primer3 設計的條件如下：</p>
+        <ul>
+            <li>目標區域（target）：外顯子 13 和 15</li>
+            <li>包含區域（include）：外顯子 14</li>
+            <li>排除區域（exclude）：其他非相關的區域</li>
+        </ul>
+
+        <p>此設計能夠有效區分兩種異構體，因為擴增出來的片段尺寸不同。ex14-EZH2 含有外顯子 14，而 ex14D-EZH2 則不包含，兩者片段大小差異會在 qPCR 中明顯區分。</p>
+
+        <figure>
+            <img src="https://i.imgur.com/RVdL7jJ.png" alt="Primer3 設計圖">
+            <figcaption>圖 3：使用 Primer3 設計 ex14-EZH2 和 ex14D-EZH2 的 primer。由於適合的位置難以找到，因此放寬了篩選條件。</figcaption>
         </figure>
     </div>
 </div>
