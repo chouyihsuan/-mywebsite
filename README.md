@@ -374,6 +374,10 @@
             <figcaption>圖 1：此圖顯示了擴增所有異構體（總異構體）的 primer 設計，Forward Primer 跨越外顯子 16 和 17，Reverse Primer 跨越外顯子 17 和 18。來源：NCBI Primer 設計工具。</figcaption>
         </figure>
 
+        <figure>
+            <img src="https://i.imgur.com/IeX8qMm.png" alt="Primer 設計詳細資訊">
+            <figcaption>圖 2：此圖顯示了兩組 primer 的詳細資訊，選擇了第二組引子，因為第一組引子的 3' 端有重複的 T 序列，這樣的設計容易造成非特異性擴增。</figcaption>
+        </figure>
     </div>
 </div>
 <script>
