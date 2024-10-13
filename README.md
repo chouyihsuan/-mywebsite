@@ -292,6 +292,49 @@
             </tbody>
         </table>
 
+        <!-- 圖片部分 -->
+        <figure>
+            <img src="https://i.ibb.co/f4bR19N/image.png" alt="EZH2 基因的轉錄圖">
+            <figcaption>圖：EZH2 基因包含 20 個外顯子，選擇性剪接會影響異構體的功能。</figcaption>
+        </figure>
+
+        <h2>EZH2 基因轉錄資訊</h2>
+        <p>根據 Ensembl 的資料，EZH2 基因的關鍵統計資訊如下：</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>統計項目</th>
+                    <th>數據</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>MANE Select 轉錄本</td>
+                    <td>ENSP00000320147, NM_004456.5, NP_004447.2</td>
+                </tr>
+                <tr>
+                    <td>UniProt ID</td>
+                    <td>Q15910</td>
+                </tr>
+                <tr>
+                    <td>外顯子數</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>編碼外顯子數</td>
+                    <td>19</td>
+                </tr>
+                <tr>
+                    <td>轉錄長度</td>
+                    <td>2,654 bp</td>
+                </tr>
+                <tr>
+                    <td>轉譯長度</td>
+                    <td>751 個氨基酸</td>
+                </tr>
+            </tbody>
+        </table>
+
         <h2>引子設計概念</h2>
         <p>
             引子設計的考慮包含以下三種場景：
