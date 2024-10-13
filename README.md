@@ -292,9 +292,9 @@
             </tbody>
         </table>
 
-       <!-- 在此處插入圖片 -->
+       <!-- 在此處插入新的圖片 -->
         <figure>
-            <img src="https://i.ibb.co/f4bR19N/Spartin-Gene-Transcript.png" alt="EZH2 Transcript Image">
+            <img src="https://i.imgur.com/kz2roXW.png" alt="EZH2 Transcript Image">
             <figcaption>EZH2 轉錄本示意圖，包含 20 個外顯子。</figcaption>
         </figure>
 
