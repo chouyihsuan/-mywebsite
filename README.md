@@ -395,99 +395,101 @@
     </div>
 </div>
 <div class="container">
-    <h1>SIRT1~7 多重序列比對分析</h1>
-    
-    <h2>使用多重序列比對的原因</h2>
-    <p>
-        <strong>識別保守區域</strong><br>
-        多重序列比對可以幫助我們識別多個序列間的保守區域，這些保守區域通常代表著在不同物種或蛋白質家族中高度保存的功能性區域。對於 Sirtuin 家族成員（SIRT1~7）而言，這些保守區域可能涉及 NAD 依賴性催化活性等重要功能。
-    </p>
+    <h3 class="arrow down">作業四 - SIRT1~7 多重序列比對分析</h3>
+    <div class="content">
+        <h1>SIRT1~7 多重序列比對分析</h1>
+        
+        <h2>使用多重序列比對的原因</h2>
+        <p>
+            <strong>識別保守區域</strong><br>
+            多重序列比對可以幫助我們識別多個序列間的保守區域，這些保守區域通常代表著在不同物種或蛋白質家族中高度保存的功能性區域。對於 Sirtuin 家族成員（SIRT1~7）而言，這些保守區域可能涉及 NAD 依賴性催化活性等重要功能。
+        </p>
 
-    <!-- ClustalW 部分 -->
-    <h2>ClustalW 多重序列比對分析</h2>
-    <p>
-        ClustalW 是由日本科學家 *Thompson、Higgins 和 Gibson* 開發的一種常用多重序列比對工具。
-    </p>
+        <!-- ClustalW 部分 -->
+        <h2>ClustalW 多重序列比對分析</h2>
+        <p>
+            ClustalW 是由日本科學家 *Thompson、Higgins 和 Gibson* 開發的一種常用多重序列比對工具。
+        </p>
 
-    <h3>比對結果中符號的意義</h3>
-    <p>
-        在 ClustalW 比對結果中，不同符號代表了序列間的保守性程度：
-    </p>
-    <ul>
-        <li><strong>星號（*）</strong>：表示在該位置上所有序列的氨基酸或核苷酸完全相同，這是一個高度保守的位置。</li>
-        <li><strong>冒號（:）</strong>：表示在該位置的氨基酸或核苷酸之間具有高度相似的性質，但不完全相同。例如，這些氨基酸可能具有相似的理化特性（如都是帶正電的氨基酸）。</li>
-        <li><strong>句點（.）</strong>：表示在該位置的氨基酸或核苷酸有一定的相似性，但程度較低。</li>
-    </ul>
-    <p>
-        這些符號幫助我們快速辨識出序列中哪些位置在結構或功能上可能具有重要的保守性。
-    </p>
+        <h3>比對結果中符號的意義</h3>
+        <p>
+            在 ClustalW 比對結果中，不同符號代表了序列間的保守性程度：
+        </p>
+        <ul>
+            <li><strong>星號（*）</strong>：表示在該位置上所有序列的氨基酸或核苷酸完全相同，這是一個高度保守的位置。</li>
+            <li><strong>冒號（:）</strong>：表示在該位置的氨基酸或核苷酸之間具有高度相似的性質，但不完全相同。例如，這些氨基酸可能具有相似的理化特性（如都是帶正電的氨基酸）。</li>
+            <li><strong>句點（.）</strong>：表示在該位置的氨基酸或核苷酸有一定的相似性，但程度較低。</li>
+        </ul>
+        <p>
+            這些符號幫助我們快速辨識出序列中哪些位置在結構或功能上可能具有重要的保守性。
+        </p>
 
-    <h3>ClustalW 比對結果</h3>
-    <figure>
-        <img src="https://i.imgur.com/2P6u36V.png" alt="SIRT1~7 序列蛋白質長度">
-        <figcaption>圖 1：SIRT1~7 序列的蛋白質長度資訊。</figcaption>
-    </figure>
+        <h3>ClustalW 比對結果</h3>
+        <figure>
+            <img src="https://i.imgur.com/2P6u36V.png" alt="SIRT1~7 序列蛋白質長度">
+            <figcaption>圖 1：SIRT1~7 序列的蛋白質長度資訊。</figcaption>
+        </figure>
 
-    <figure>
-        <img src="https://i.imgur.com/RZDKVaJ.png" alt="ClustalW 比對結果 - Part 1">
-        <figcaption>圖 2：ClustalW 比對結果（第一部分）。</figcaption>
-    </figure>
+        <figure>
+            <img src="https://i.imgur.com/RZDKVaJ.png" alt="ClustalW 比對結果 - Part 1">
+            <figcaption>圖 2：ClustalW 比對結果（第一部分）。</figcaption>
+        </figure>
 
-    <figure>
-        <img src="https://i.imgur.com/pHnyITJ.png" alt="ClustalW 比對結果 - Part 2">
-        <figcaption>圖 3：ClustalW 比對結果（第二部分）。</figcaption>
-    </figure>
+        <figure>
+            <img src="https://i.imgur.com/pHnyITJ.png" alt="ClustalW 比對結果 - Part 2">
+            <figcaption>圖 3：ClustalW 比對結果（第二部分）。</figcaption>
+        </figure>
 
-    <figure>
-        <img src="https://i.imgur.com/c6P4WYg.png" alt="ClustalW 比對結果 - Part 3">
-        <figcaption>圖 4：ClustalW 比對結果（第三部分）。</figcaption>
-    </figure>
+        <figure>
+            <img src="https://i.imgur.com/c6P4WYg.png" alt="ClustalW 比對結果 - Part 3">
+            <figcaption>圖 4：ClustalW 比對結果（第三部分）。</figcaption>
+        </figure>
 
-    <figure>
-        <img src="https://i.imgur.com/6cnWc6j.png" alt="SIRT1~7 的親緣樹">
-        <figcaption>圖 5：SIRT1~7 序列比對結果的親緣樹。</figcaption>
-    </figure>
+        <figure>
+            <img src="https://i.imgur.com/6cnWc6j.png" alt="SIRT1~7 的親緣樹">
+            <figcaption>圖 5：SIRT1~7 序列比對結果的親緣樹。</figcaption>
+        </figure>
 
-    <h3>結果分析</h3>
-    <p>
-        在圖 2 和圖 3 中，ClustalW 的多重序列比對結果展示了 SIRT1~7 序列間的高度保守區域，這些區域以星號（*）標示，顯示在所有序列中均保持完全一致。根據文獻資料，Sirtuin 家族蛋白的 NAD 依賴性催化活性集中於這些高度保守的區域。因此，我們推測這些標示星號的位點可能包含了與 NAD 結合和催化功能相關的關鍵氨基酸，這些位置的保守性反映了它們在該家族蛋白功能中的重要性。
-    </p>
+        <h3>結果分析</h3>
+        <p>
+            在圖 2 和圖 3 中，ClustalW 的多重序列比對結果展示了 SIRT1~7 序列間的高度保守區域，這些區域以星號（*）標示，顯示在所有序列中均保持完全一致。根據文獻資料，Sirtuin 家族蛋白的 NAD 依賴性催化活性集中於這些高度保守的區域。因此，我們推測這些標示星號的位點可能包含了與 NAD 結合和催化功能相關的關鍵氨基酸，這些位置的保守性反映了它們在該家族蛋白功能中的重要性。
+        </p>
 
-    <!-- COBALT 部分 -->
-    <h2>COBALT 多重序列比對分析</h2>
-<p>
-    COBALT 是一個多重序列比對工具，通過多種資料庫和比對方法來發現序列間的保守區域。COBALT 使用 RPS-BLAST、BLASTP 和 PHI-BLAST 從保守域資料庫（Conserved Domain Database）、蛋白質基序資料庫（Protein Motif Database）以及序列相似性中找到成對限制條件，並將這些成對限制條件納入進行進步式多重比對。這樣的多重比對方法能夠更準確地識別功能性區域，對於像 SIRT1~7 這樣的蛋白質家族分析尤為有幫助。
-</p>
+        <!-- COBALT 部分 -->
+        <h2>COBALT 多重序列比對分析</h2>
+        <p>
+            COBALT 是一個多重序列比對工具，通過多種資料庫和比對方法來發現序列間的保守區域。COBALT 使用 RPS-BLAST、BLASTP 和 PHI-BLAST 從保守域資料庫（Conserved Domain Database）、蛋白質基序資料庫（Protein Motif Database）以及序列相似性中找到成對限制條件，並將這些成對限制條件納入進行進步式多重比對。這樣的多重比對方法能夠更準確地識別功能性區域，對於像 SIRT1~7 這樣的蛋白質家族分析尤為有幫助。
+        </p>
 
-    <h3>COBALT 比對結果</h3>
-    <p>以下是 COBALT 工具產生的 SIRT1~7 比對結果。圖 6 和圖 7 為比對的詳細結果展示，圖 8 為「Graphical Overview」，展示了保守區域和各序列間的相似性。</p>
+        <h3>COBALT 比對結果</h3>
+        <p>以下是 COBALT 工具產生的 SIRT1~7 比對結果。圖 6 和圖 7 為比對的詳細結果展示，圖 8 為「Graphical Overview」，展示了保守區域和各序列間的相似性。</p>
 
-    <figure>
-        <img src="https://i.imgur.com/JYbfPyr.png" alt="COBALT 比對的結果 - Part 1">
-        <figcaption>圖 6：COBALT 比對結果（第一部分）。</figcaption>
-    </figure>
+        <figure>
+            <img src="https://i.imgur.com/JYbfPyr.png" alt="COBALT 比對的結果 - Part 1">
+            <figcaption>圖 6：COBALT 比對結果（第一部分）。</figcaption>
+        </figure>
 
-    <figure>
-        <img src="https://i.imgur.com/AskeUyS.png" alt="COBALT 比對的結果 - Part 2">
-        <figcaption>圖 7：COBALT 比對結果（第二部分）。</figcaption>
-    </figure>
+        <figure>
+            <img src="https://i.imgur.com/AskeUyS.png" alt="COBALT 比對的結果 - Part 2">
+            <figcaption>圖 7：COBALT 比對結果（第二部分）。</figcaption>
+        </figure>
 
-    <figure>
-        <img src="https://i.imgur.com/92nakqN.png" alt="COBALT 比對的 Graphical Overview">
-        <figcaption>圖 8：COBALT 比對的 Graphical Overview。紅色表示高度保守的位置，藍色表示保守性較低的位置，而灰色則表示有 gaps 或不包含在比對中的位置。</figcaption>
-    </figure>
+        <figure>
+            <img src="https://i.imgur.com/92nakqN.png" alt="COBALT 比對的 Graphical Overview">
+            <figcaption>圖 8：COBALT 比對的 Graphical Overview。紅色表示高度保守的位置，藍色表示保守性較低的位置，而灰色則表示有 gaps 或不包含在比對中的位置。</figcaption>
+        </figure>
 
-    <figure>
-        <img src="https://i.imgur.com/th69tZ0.png" alt="COBALT 的親緣樹">
-        <figcaption>圖 9：COBALT 的親緣樹，展示了 SIRT1~7 間的親緣關係。</figcaption>
-    </figure>
+        <figure>
+            <img src="https://i.imgur.com/th69tZ0.png" alt="COBALT 的親緣樹">
+            <figcaption>圖 9：COBALT 的親緣樹，展示了 SIRT1~7 間的親緣關係。</figcaption>
+        </figure>
 
-    <h3>結果分析</h3>
-    <p>
-        在 COBALT 的 Graphical Overview 中，紅色標示的區域代表了在 SIRT1~7 序列中高度保守的氨基酸位點。這些保守位點顯示了高於其他位置的相對熵，表明這些區域在不同成員間具有一致性。根據文獻資料，Sirtuin 家族的 NAD 依賴性催化活性通常位於這些高度保守的區域。因此，我們推測這些紅色標示的位點可能包含了與 NAD 結合及催化活性相關的關鍵氨基酸，並在 SIRT1~7 的功能中發揮重要作用。
-    </p>
+        <h3>結果分析</h3>
+        <p>
+            在 COBALT 的 Graphical Overview 中，紅色標示的區域代表了在 SIRT1~7 序列中高度保守的氨基酸位點。這些保守位點顯示了高於其他位置的相對熵，表明這些區域在不同成員間具有一致性。根據文獻資料，Sirtuin 家族的 NAD 依賴性催化活性通常位於這些高度保守的區域。因此，我們推測這些紅色標示的位點可能包含了與 NAD 結合及催化活性相關的關鍵氨基酸，並在 SIRT1~7 的功能中發揮重要作用。
+        </p>
+    </div>
 </div>
-
 <script>
     const arrows = document.querySelectorAll('.arrow');
     arrows.forEach(arrow => {
