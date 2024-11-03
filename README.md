@@ -402,6 +402,40 @@
             <strong>識別保守區域</strong><br>
             多重序列比對可以幫助我們識別多個序列間的保守區域，這些保守區域通常代表著在不同物種或蛋白質家族中高度保存的功能性區域。對於 Sirtuin 家族成員（SIRT1~7）而言，這些保守區域可能涉及 NAD 依賴性催化活性等重要功能。
         </p>
+
+        <h2>ClustalW 多重序列比對分析</h2>
+        <p>
+            ClustalW 是由日本科學家 *Thompson、Higgins 和 Gibson* 開發的一種常用多重序列比對工具。
+        </p>
+
+        <!-- 插入蛋白質長度圖片 -->
+        <h3>ClustalW 比對結果</h3>
+        <figure>
+            <img src="https://i.imgur.com/2P6u36V.png" alt="SIRT1~7 序列蛋白質長度">
+            <figcaption>圖 1：SIRT1~7 序列的蛋白質長度資訊。</figcaption>
+        </figure>
+
+        <!-- 插入比對結果圖片 -->
+        <figure>
+            <img src="https://i.imgur.com/RZDKVaJ.png" alt="ClustalW 比對結果 - Part 1">
+            <figcaption>圖 2：ClustalW 比對結果（第一部分）。</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://i.imgur.com/pHnyITJ.png" alt="ClustalW 比對結果 - Part 2">
+            <figcaption>圖 3：ClustalW 比對結果（第二部分）。</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://i.imgur.com/c6P4WYg.png" alt="ClustalW 比對結果 - Part 3">
+            <figcaption>圖 4：ClustalW 比對結果（第三部分）。</figcaption>
+        </figure>
+
+        <!-- 插入親緣樹圖片 -->
+        <figure>
+            <img src="https://i.imgur.com/6cnWc6j.png" alt="SIRT1~7 的親緣樹">
+            <figcaption>圖 5：SIRT1~7 序列比對結果的親緣樹。</figcaption>
+        </figure>
     </div>
 </div>
 <script>
