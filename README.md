@@ -455,9 +455,9 @@
 
     <!-- COBALT 部分 -->
     <h2>COBALT 多重序列比對分析</h2>
-    <p>
-        COBALT 是由 NCBI 開發的多重序列比對工具，專門設計用於 DNA 和蛋白質序列的多重比對。與 ClustalW 不同，COBALT 結合了蛋白質結構域（如 CDD：Conserved Domain Database）的信息，以提高比對的準確性。這樣的結構域信息對於像 SIRT1~7 這樣的蛋白質家族尤為重要，因為這些保守區域可能與其功能直接相關。
-    </p>
+<p>
+    COBALT 是一個多重序列比對工具，通過多種資料庫和比對方法來發現序列間的保守區域。COBALT 使用 RPS-BLAST、BLASTP 和 PHI-BLAST 從保守域資料庫（Conserved Domain Database）、蛋白質基序資料庫（Protein Motif Database）以及序列相似性中找到成對限制條件，並將這些成對限制條件納入進行進步式多重比對。這樣的多重比對方法能夠更準確地識別功能性區域，對於像 SIRT1~7 這樣的蛋白質家族分析尤為有幫助。
+</p>
 
     <h3>COBALT 比對結果</h3>
     <p>以下是 COBALT 工具產生的 SIRT1~7 比對結果。圖 6 和圖 7 為比對的詳細結果展示，圖 8 為「Graphical Overview」，展示了保守區域和各序列間的相似性。</p>
