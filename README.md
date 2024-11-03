@@ -394,6 +394,16 @@
         </figure>
     </div>
 </div>
+<div class="container">
+    <h3 class="arrow down">作業四 - SIRT1~7 的多重序列比對分析</h3>
+    <div class="content">
+        <h2>使用多重序列比對的原因</h2>
+        <p>
+            <strong>識別保守區域</strong><br>
+            多重序列比對可以幫助我們識別多個序列間的保守區域，這些保守區域通常代表著在不同物種或蛋白質家族中高度保存的功能性區域。對於 Sirtuin 家族成員（SIRT1~7）而言，這些保守區域可能涉及 NAD 依賴性催化活性等重要功能。
+        </p>
+    </div>
+</div>
 <script>
     const arrows = document.querySelectorAll('.arrow');
     arrows.forEach(arrow => {
