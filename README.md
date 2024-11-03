@@ -408,7 +408,6 @@
             ClustalW 是由日本科學家 *Thompson、Higgins 和 Gibson* 開發的一種常用多重序列比對工具。
         </p>
 
-        <!-- 新增符號解釋 -->
         <h3>比對結果中符號的意義</h3>
         <p>
             在 ClustalW 比對結果中，不同符號代表了序列間的保守性程度：
@@ -422,14 +421,13 @@
             這些符號幫助我們快速辨識出序列中哪些位置在結構或功能上可能具有重要的保守性。
         </p>
 
-        <!-- 插入蛋白質長度圖片 -->
+        <!-- 插入 ClustalW 比對結果圖片 -->
         <h3>ClustalW 比對結果</h3>
         <figure>
             <img src="https://i.imgur.com/2P6u36V.png" alt="SIRT1~7 序列蛋白質長度">
             <figcaption>圖 1：SIRT1~7 序列的蛋白質長度資訊。</figcaption>
         </figure>
 
-        <!-- 插入比對結果圖片 -->
         <figure>
             <img src="https://i.imgur.com/RZDKVaJ.png" alt="ClustalW 比對結果 - Part 1">
             <figcaption>圖 2：ClustalW 比對結果（第一部分）。</figcaption>
@@ -445,10 +443,34 @@
             <figcaption>圖 4：ClustalW 比對結果（第三部分）。</figcaption>
         </figure>
 
-        <!-- 插入親緣樹圖片 -->
         <figure>
             <img src="https://i.imgur.com/6cnWc6j.png" alt="SIRT1~7 的親緣樹">
             <figcaption>圖 5：SIRT1~7 序列比對結果的親緣樹。</figcaption>
+        </figure>
+
+        <!-- 開始 COBALT 部分 -->
+        <h2>COBALT 多重序列比對分析</h2>
+        <p>
+            COBALT 是由 NCBI 開發的多重序列比對工具，專門設計用於 DNA 和蛋白質序列的多重比對。與 ClustalW 不同，COBALT 結合了蛋白質結構域（如 CDD：Conserved Domain Database）的信息，以提高比對的準確性。這樣的結構域信息對於像 SIRT1~7 這樣的蛋白質家族尤為重要，因為這些保守區域可能與其功能直接相關。
+        </p>
+
+        <h3>COBALT 比對結果</h3>
+        <p>以下是 COBALT 工具產生的 SIRT1~7 比對結果。圖 6 和圖 7 為比對的詳細結果展示，圖 8 為「Graphical Overview」，展示了保守區域和各序列間的相似性。</p>
+
+        <!-- 插入 COBALT 比對結果圖片 -->
+        <figure>
+            <img src="https://i.imgur.com/JYbfPyr.png" alt="COBALT 比對的結果 - Part 1">
+            <figcaption>圖 6：COBALT 比對結果（第一部分）。</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://i.imgur.com/AskeUyS.png" alt="COBALT 比對的結果 - Part 2">
+            <figcaption>圖 7：COBALT 比對結果（第二部分）。</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://i.imgur.com/92nakqN.png" alt="COBALT 比對的 Graphical Overview">
+            <figcaption>圖 8：COBALT 比對的 Graphical Overview。紅色表示高度保守的位置，藍色表示保守性較低的位置，而灰色則表示有 gaps 或不包含在比對中的位置。</figcaption>
         </figure>
     </div>
 </div>
