@@ -487,7 +487,7 @@
         在 COBALT 的 Graphical Overview 中，紅色標示的區域代表了在 SIRT1~7 序列中高度保守的氨基酸位點。這些保守位點顯示了高於其他位置的相對熵，表明這些區域在不同成員間具有一致性。根據文獻資料，Sirtuin 家族的 NAD 依賴性催化活性通常位於這些高度保守的區域。因此，我們推測這些紅色標示的位點可能包含了與 NAD 結合及催化活性相關的關鍵氨基酸，並在 SIRT1~7 的功能中發揮重要作用。
     </p>
 </div>
-</div>
+
 <script>
     const arrows = document.querySelectorAll('.arrow');
     arrows.forEach(arrow => {
