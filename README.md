@@ -490,6 +490,56 @@
         </p>
     </div>
 </div>
+<div class="container">
+    <h3 class="arrow down">作業五 - hsa-let-7a-5p miRNA 分析結果</h3>
+    <div class="content">
+        <h3>圖像與分析結果</h3>
+
+        <figure>
+            <img src="https://i.imgur.com/4WoYKLS.png" alt="miRBase搜尋hsa-let-7a-5p的結果">
+            <figcaption>圖 1：miRBase 搜尋 hsa-let-7a-5p 的結果顯示該 miRNA 的詳細資訊。</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://i.imgur.com/rb5eH1U.png" alt="TargetScan的結果">
+            <figcaption>圖 2：TargetScan 的結果顯示了 hsa-let-7a-5p 的潛在靶基因，根據不同靶點和保守性來排列。</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://i.imgur.com/AB2IlPl.png" alt="miRDB的結果">
+            <figcaption>圖 3：miRDB 的結果顯示了 hsa-let-7a-5p 的潛在靶基因，包含靶基因的預測分數。</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://i.imgur.com/U9Fuy1r.png" alt="miRTarBase的結果">
+            <figcaption>圖 4：miRTarBase 的結果顯示了 hsa-let-7a-5p 的實驗驗證靶基因，根據不同的實驗方法確認靶基因的有效性。</figcaption>
+        </figure>
+
+        <h3>Python 程式碼</h3>
+        <figure>
+            <img src="https://i.imgur.com/9ckussR.png" alt="Python 程式碼截圖">
+            <figcaption>圖 5：Python 程式碼用於分析基因資料，計算並找出至少在兩個或三個工具中共同報導的基因。</figcaption>
+        </figure>
+
+        <h3>分析結果</h3>
+
+        <h4>至少在兩個工具中共同報導的基因 (811 個)</h4>
+        <div class="gene-list">
+            <p>基因列表：</p>
+            <p>
+                'TRHDE', 'ZC3HAV1L', 'USP6', 'SFT2D3', 'SRGAP1', 'TENM2', 'NUP155', 'ZNF443', 'CYTH3', 'NHLRC2', 'EOGT', 'ABT1', 'EPHA4', 'IGF1', 'FAM43A', 'CEP164', 'MYCBP', 'FOPNL', 'UBE2G2', 'PBX3', 'SLC25A24', 'AKAP6', 'BTG2', 'WARS2', 'MAP3K3', 'PALD1', 'GDPD1', 'REEP1', 'DCAF15', 'NAT8L', 'USP49', 'MYO5B', 'LRIG2', 'TBKBP1', 'KLHL23', 'SLC25A18', 'FNIP1', 'FBXO45', 'LBH', 'ATP6V1C1', 'FRMD4B', 'WNK3', 'GAN', 'STARD13', 'TET3', 'AGAP1', 'KATNBL1', 'IGDCC4', 'NPEPL1', 'TSC22D2', 'ERCC4', 'ONECUT2', 'DUSP1', 'XK', 'PDZD8', 'CBX2', 'KCTD16', 'ACTA1', 'HIP1', 'KPNA1', 'RRP1B', 'IKZF2', 'ASAP1', 'ELK4', 'KRT5', 'TMEM143', 'OLR1', 'COL9A1', datetime.datetime(2024, 3, 9, 0, 0), 'GALNT1', 'IL10', 'COIL', 'SOX6', 'IDH2', 'EGR3', 'YY1', 'ZNF512B', 'CCR7', 'SH2B3', 'BZW1', 'ARID3A', 'PACS2', 'PDE12', 'CPM', 'SKIDA1', 'CELF1', 'TAB2', 'FAM83G', 'PIK3CA', 'TRIM71', 'AEN', 'AGO1', 'MBD2', 'MGA', 'SEMA4F', 'CPSF4', 'POU2F1', 'CPEB3', 'PTPRD', 'INTS2', 'RIOK3', 'OSTF1', 'WASL', 'RFX6', 'PXDN', 'MED8', 'CCL7', 'CRCT1', 'XRN1', 'FGD6', 'SLC5A6', 'CDV3', 'DTX4', 'NRK', 'PARP8', 'TMEM234', 'NIPAL4', 'KCTD21', 'DNAL1', 'ARID3B', 'PDGFB', 'SLC16A14', 'HS2ST1', 'CDKN1A', 'LIMD2', 'GALC', 'MAPK6', 'GRID2IP', 'HK2', 'OSMR', 'ZBTB8B', 'PPP1R15B', 'RBM38', 'PRKAA2', 'TNFSF9', 'AGO4', 'RGS16', 'SLK', 'ADRB2', 'COL1A2', 'HOXD1', 'ARPP19', 'AHCTF1', 'PBX2', 'MMP11', 'PLXNA4', 'TMEM65', 'SLC20A1', 'CACNB4', 'PRDM1', 'ANKRD46', 'GATM', 'ZNF710', 'DYRK1A', 'STEAP3', 'PCGF3', 'ATP2B4', 'ZFYVE26', 'FAXC', 'GRPEL2', 'RAVER2', 'MOB4', 'ZCCHC3', 'COL4A3BP', 'KIAA1549', 'FNDC3B', 'FRMD5', 'RANBP2', 'RDH10', 'TTL', 'SMIM3', 'ZCCHC9', 'FAM118A', 'TRIM41', 'GPATCH3', 'SNX16', 'SLC45A4', 'ESPL1', 'C8orf58', 'NKD1', 'C6orf203', 'IGF2BP1', 'USP12', 'NAA20', 'ZNF689', 'NRAS', 'NEK3', 'TAF9B', 'ACER2', 'SYT2', 'BTBD3', 'VAV3', 'ARG2', 'NKIRAS2', 'ELOVL4', 'SOCS7', 'CLASP2', 'NEFM', 'PDPR', 'ANKRD52', 'ATXN7L3B', 'GALNT4', 'PRSS22', 'TMEM167A', 'RNF44', 'IGF2BP2', 'YTHDF3', 'COL14A1', 'LIMK2', 'STX17', 'SMC1A', 'IKZF3', 'SEC31B', 'STK40', 'SRD5A3', 'PIGA', 'LMX1A', 'TMEM41A', 'RTCA', 'COL27A1', 'SP8', 'SEMA4C', 'ECHDC1', 'ZNF799', 'MBTPS2', 'PPP1R16B', 'PRPF38B', 'SREK1IP1', 'PAK1', 'ZNF322', 'TPP1', 'HOXA1', 'SBNO1', 'GJC1', 'GLRX', 'GRIN3A', 'SMARCAD1', 'KIAA0930', 'DARS2', 'MAP4K3', 'KIAA0391', 'IFNLR1', 'TUSC2', 'TTLL4', 'DTX2', 'TBX5', 'LRRC20', 'ADRB1', 'SLC52A3', 'HIF3A', 'ZNF10', 'IL13', 'GDAP2', 'VGLL3', 'MGLL', 'GOLT1B', 'ICMT', 'RPUSD2', 'SLC38A9', 'SDR42E1', 'NID2', 'KCTD17', 'GPR156', 'RNF20', 'DHX57', 'PEG10', 'IGF2BP3', 'USP38', 'PPP2R2A', 'TMED5', 'DKK3', 'SDK1', 'P4HA2', 'SALL4', 'CD200R1', 'BMP2', 'BCAP29', 'TRIB2', 'WNT9B', 'ACVR1C', 'CHSY3', 'ERCC6', 'ZNF275', 'KLHL6', 'SUB1', 'ANKRD28', 'PRDM5', 'FAM222B', 'ATAD2B', 'GGA3', 'PLXNC1', 'PLA2G3', 'ZNF280B', 'XYLT1', 'KCNQ4', 'MIB1', 'GAS7', 'CDC25A', 'LMLN', 'AAK1', 'SYT1', 'ICOS', 'YPEL2', 'SLC12A9', 'NOVA1', 'GXYLT1', 'SOWAHA', 'UGCG', 'IMPG2', 'RBMS2', 'USP44', 'P2RX1', 'AGO2', 'HIC2', 'CCDC71L', 'ZNF697', 'TMTC3', 'PAG1', 'SESN3', 'RALB', 'RAG1', 'RRM2', 'C11orf57', 'INSR', 'LINGO1', 'NHLRC3', 'RNF217', 'E2F6', 'MYRIP', 'CD59', 'CCND1', 'FZD4', 'PRRX1', 'CSNK2A1', 'CFL2', 'SNX6', 'SLC8A2', 'RNF165', 'SYT7', 'ARL4D', 'RICTOR', 'RNF170', 'ZNF774', 'KLHL13', 'TSPAN18', 'FAM189A1', 'CRK', 'DAGLA', 'LIPT2', 'L2HGDH', 'ACVR2A', 'BZW2', 'PXT1', 'EIF2S2', 'DST', 'CHIC1', 'DAPK1', 'TMPRSS2', 'POGLUT1', 'ADAMTS5', 'MFSD8', 'FNDC3A', 'PLCG2', 'BBX', 'STXBP5', 'BEND4', 'RBFOX1', 'FASLG', 'PTAFR', 'VASH2', 'ZNF202', 'GABRA6', 'DLC1', 'LRIG3', 'CNOT6L', 'KLF9', 'PIK3IP1', 'CDCA8', 'CADM2', 'TP53', 'C5orf51', 'ZNF644', 'FRS2', 'PLEKHG7', 'PCDH19', 'ITGB8', 'CASKIN1', 'MED6', 'SAMD12', 'TEX261', 'KIAA1147', 'SLC16A9', 'COL3A1', 'IGF1R', 'A1CF', 'KCNC1', 'IL6', 'PLEKHA8', 'CYB561D1', 'GPR26', 'STARD9', 'SYNCRIP', 'POLR2D', 'CPED1', 'GALNT15', 'ACSL6', 'LDB1', 'MARS2', 'MYCN', 'ZNF341', 'RPS6KA3', 'SLC25A27', 'HMGA1', 'BCAT1', 'CRTAP', 'PLAGL2', 'TSPEAR', 'HIF1AN', 'DMP1', 'TSC1', 'APBA1', 'SENP5', 'RORC', 'SPEG', 'CLDN12', 'SMAD2', 'STOX2', 'DYRK2', 'KMT2D', 'RUNX1T1', 'FMO4', 'HSPE1-MOB4', 'FIGN', 'FARP1', 'IGDCC3', 'POC1B-GALNT4', 'SCD', 'ARHGEF15', 'FBXO30', 'OSBPL3', 'EEF2K', 'ZNF583', 'IPO9', 'EPHA3', 'CGNL1', 'SALL3', 'LRFN4', 'DCUN1D3', 'CASP3', 'C1GALT1', 'SLC10A7', 'PLEKHO1', 'FZD3', 'BRWD3', 'CACNA1I', 'RGS6', 'ATXN7L3', 'YOD1', 'SULF2', 'WDR37', 'RB1', 'GCNT4', 'NIPA1', 'PRKAR2A', 'RSPO2', 'SESTD1', 'ADRB3', 'HMGA2', 'DNAJA2', 'KLF8', 'LBR', 'SURF4', 'MAPK8', 'ZNF587', 'ABCB9', 'SMARCC1', 'NME6', 'PAX3', 'SECISBP2L', 'EIF4G2', 'THBS1', 'SNX30', 'OTOF', 'C14orf28', 'LIN28B', 'RCN1', 'DICER1', 'SEC14L5', 'STARD3NL', 'MTUS1', 'EFHD2', 'PLEKHA3', 'CDK6', 'SMUG1', 'LTN1', 'AIFM1', 'C15orf41', 'PAPPA', 'HECTD2', 'HELZ', 'DLGAP4', 'SCN5A', 'HOXA9', 'TMPPE', 'E2F5', 'MSN', 'ZNF566', 'C20orf194', 'CPA4', 'ETNK1', 'AMMECR1L', 'POLR3D', 'B3GAT3', 'ABHD17C', 'PCDH20', 'LSM11', 'TSPAN2', 'CSRNP3', 'CHRD', 'HABP4', 'ETNK2', 'MED28', 'SLC31A1', 'TECPR2', 'SOCS4', 'COL5A2', 'MIEF1', 'ADAMTS8', 'GPCPD1', 'SENP2', 'DLST', 'GALE', 'THOC2', 'PITPNM3', 'TSPYL5', 'MAP3K9', 'CEP135', 'CERCAM', 'PEX11B', 'NGF', 'NDST2', 'CLP1', 'AGO3', 'TRIB1', 'PRLR', 'B3GNT7', 'CCNT2', 'RNF38', 'ZBTB8OS', 'DMD', 'CPEB1', 'GRAMD1B', 'RAB11FIP4', 'DNA2', 'STRN', 'LEPROTL1', 'CEP120', 'RUFY3', 'WIPI2', 'FBXO32', 'MEX3A', 'COL4A2', 'HAND1', 'ATP8B4', 'DUSP7', 'KLK10', 'ZNF516', 'LCORL', 'GOLGA4', 'SNX17', 'TRANK1', 'MGAT4A', 'SNAP23', 'BIN3', 'CLOCK', 'KREMEN1', 'TEAD3', 'TMC7', 'USP32', 'ZBTB37', 'CDC34', 'BACH1', 'MRS2', 'KIF21B', 'KCNC2', 'ATP2A2', 'VSNL1', 'DUSP22', 'CACNA1E', 'GABPA', 'RAB15', 'KPNA5', 'NR6A1', 'NYNRIN', 'NSD1', 'NME4', 'TNFRSF1B', 'PPP3CA', 'MAP3K2', 'SEC14L1', 'ADAMTS15', 'THRSP', 'CLPB', 'AFF2', 'LYVE1', 'IQCB1', 'HDX', 'CCNY', 'UHRF2', 'CTPS1', 'PMAIP1', 'SPATA2', 'PALM3', 'GAB2', 'POGZ', 'STRBP', 'RAB40C', 'HDLBP', 'AMER3', 'STX3', 'ERGIC1', 'SREBF2', 'GHR', 'ABL2', 'EDN1', 'DUSP16', 'MAP4K4', 'PLD3', 'KCNJ11', 'TGDS', 'RAB8B', 'SYNJ2BP', 'MDM4', 'PLCXD3', 'ITGB3', 'BEGAIN', 'SOX13', 'SLC30A4', 'RBMS1', 'MYO1F', 'DCUN1D2', 'SOCS1', 'GDF6', 'HAS2', 'ARL5A', 'TGFBR3', 'BCL2L1', 'MDFI', 'TRABD', 'GIPC1', 'SPRYD4', 'CBX5', 'SMCR8', 'PGRMC1', 'ZSWIM5', 'LIMD1', 'SLC1A4', 'LIN28A', 'AMOT', 'MXD1', 'TRPM6', 'MTDH', 'KLHL31', 'COL4A6', 'PLXND1', 'SFMBT1', 'RNFT1', 'PSORS1C2', 'GYG2', 'RAB3GAP2', 'FRAS1', 'DVL3', 'ADIPOR2', 'ARRDC4', 'LIPH', 'CAPN3', 'ARHGEF38', 'PBX1', 'NAA30', 'SCYL3', 'ACVR1B', 'PPP1R12B', 'TRIM67', 'DDX19B', 'RASGRP1', 'CBFA2T3', 'SLC7A14', 'KIAA1958', 'BCL7A', 'DDI2', 'MON2', 'ARHGAP28', 'ZNF652', 'CCNJ', 'AMT', 'RDX', 'DPH3', 'SUCLG2', 'TMX4', 'PKN2', 'ARMC8', 'SPTBN4', 'MEF2C', 'PDP2', 'KHNYN', 'ZNF200', 'UGGT1', 'PLEKHH1', 'PLD5', 'ZBTB5', 'ZBTB10', 'CRB2', 'DOCK3', 'FNIP2', 'EEA1', 'SMIM13', 'SLC9A9', 'MAP3K1', 'SLC22A23', 'LRRC8B', 'C19orf47', 'USP24', 'CHST3', 'EDEM3', 'SLC5A9', 'TET2', 'ABCC5', 'OPA3', 'FAM135A', 'UTRN', 'TGFBR1', 'CPEB2', 'PARM1', 'STK24', 'SLC2A12', 'ZNF641', 'ZNF354A', 'COL1A1', 'SNN', 'CLCN5', 'GALNT2', 'GNPTAB', 'BTBD9', 'C15orf39', 'GNG5', 'SEMA4G', 'CHD4', 'KCNJ3', 'KLHDC8B', 'BSN', 'HOOK1', 'SYT11', 'POTEM', 'ZNF784', 'PQLC2', 'FKRP', 'LPGAT1', 'COL4A1', 'TXLNA', 'TMOD2', 'ZC3H3', 'DDX19A', 'NAP1L1', 'MEIS2', 'KDM3A', 'ZBTB39', 'MSI2', 'RBFOX2', 'FGF11', 'CNTRL', 'XKR8', 'PANX2', 'INPP5A', 'ATP6V1G1', 'IRS2', 'SCN4B', 'ELF4', 'GABBR2', 'FREM2', 'ARL6IP6', 'TMEM178B', 'DPP3', 'GTF2I', 'FAM214B', 'PGM2L1', 'LOXL4', 'KATNAL1', 'ENTPD7', 'TXLNG', 'PPARGC1B', 'FAM104A', 'SKIL', 'SLC35D2', 'E2F2', 'HTR1E', 'CCND2', 'MLLT10', 'CDKAL1', 'AP1S1', 'PARD6B', 'FOXP2', 'APBB3', 'CRY2', 'CALU', 'ANKFY1', 'GPR132', 'SH3RF3', 'EGLN2', 'SBK1', 'CANT1', 'AURKB'
+            </p>
+        </div>
+
+        <h4>在三個工具中共同報導的基因 (155 個)</h4>
+        <div class="gene-list">
+            <p>基因列表：</p>
+            <p>
+                'UHRF2', 'POLR2D', 'RAB40C', 'SEMA4C', 'HMGA1', 'EDN1', 'BCAT1', 'EPHA4', 'PLAGL2', 'MDM4', 'ITGB3', 'SMARCAD1', 'KIAA0930', 'CLDN12', 'TUSC2', 'SOCS1', 'KMT2D', 'FIGN', 'HAS2', 'TGFBR3', 'PALD1', 'CBX5', 'NAT8L', 'SMCR8', 'PGRMC1', 'FNIP1', 'LIN28A', 'MXD1', 'SALL3', 'PLXND1', 'NID2', 'CASP3', 'TSC22D2', 'IGDCC4', 'C1GALT1', 'SLC10A7', 'PLEKHO1', 'ONECUT2', 'DHX57', 'DUSP1', 'PEG10', 'IGF2BP3', 'USP38', 'PPP2R2A', 'TMED5', 'ADIPOR2', 'YOD1', 'DVL3', 'HMGA2', 'SURF4', 'NAA30', 'COIL', 'EIF4G2', 'EGR3', 'THBS1', 'CCR7', 'BZW1', 'ARID3A', 'PDE12', 'DICER1', 'MTUS1', 'EFHD2', 'TAB2', 'TRIM71', 'AGO1', 'RDX', 'MBD2', 'MIB1', 'ZNF566', 'PDP2', 'CDC25A', 'ZNF200', 'CPA4', 'POLR3D', 'ABHD17C', 'ZBTB5', 'SLC5A6', 'CDV3', 'MED28', 'MAP3K1', 'RRM2', 'KCTD21', 'ARID3B', 'C19orf47', 'CDKN1A', 'NHLRC3', 'LIMD2', 'E2F6', 'EDEM3', 'CCND1', 'MAPK6', 'CFL2', 'SNX6', 'PPP1R15B', 'TNFSF9', 'CEP135', 'NGF', 'PEX11B', 'CCNT2', 'SLC20A1', 'GNG5', 'PRDM1', 'ANKRD46', 'RAB11FIP4', 'DNA2', 'STRN', 'KLHDC8B', 'PCGF3', 'WIPI2', 'GRPEL2', 'BZW2', 'HAND1', 'TXLNA', 'RANBP2', 'NAP1L1', 'GOLGA4', 'FNDC3A', 'ESPL1', 'MSI2', 'RBFOX2', 'CNTRL', 'BEND4', 'IGF2BP1', 'SNAP23', 'KREMEN1', 'NRAS', 'TAF9B', 'LRIG3', 'GTF2I', 'PGM2L1', 'ACER2', 'CDC34', 'BACH1', 'MRS2', 'TXLNG', 'ARG2', 'ATP2A2', 'FAM104A', 'NKIRAS2', 'E2F2', 'CCND2', 'MLLT10', 'NEFM', 'ZNF644', 'AP1S1', 'NR6A1', 'NSD1', 'NME4', 'CRY2', 'PRSS22', 'RNF44', 'SLC16A9', 'CALU', 'IGF1R', 'SMC1A'
+            </p>
+        </div>
+    </div>
+</div>
 <script>
     const arrows = document.querySelectorAll('.arrow');
     arrows.forEach(arrow => {
