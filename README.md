@@ -540,6 +540,60 @@
         </div>
     </div>
 </div>
+<div class="container">
+    <h3 class="arrow down">作業六 - hsa-miR-21-5p 的 pathway 與基因分析</h3>
+    <div class="content">
+        <h3>研究背景</h3>
+        <p>
+            本作業目的是分析 hsa-miR-21-5p 的目標基因，並探討其與 pathways 的相關性，結果來自於 TargetScan、miRDB 和 miRTarBase 等工具。
+            進一步使用 Reactome 進行 pathway enrichment 分析，並視覺化其 pathways 的分佈。
+        </p>
+        
+        <h3>Python 程式碼</h3>
+        <figure>
+            <img src="https://i.imgur.com/8fuoUid.png" alt="Python 程式碼截圖">
+            <figcaption>
+                圖 1：Python 程式碼，用於分析來自 TargetScan、miRDB 和 miRTarBase 的 hsa-miR-21-5p 目標基因，並計算至少在兩個或三個工具中共同報導的基因。
+            </figcaption>
+        </figure>
+
+        <h3>分析結果</h3>
+        <p>
+            結果顯示：
+        </p>
+        <ul>
+            <li>至少在兩個工具中共同報導的基因數量：<strong>300 個</strong></li>
+            <li>在三個工具中共同報導的基因數量：<strong>96 個</strong></li>
+        </ul>
+
+        <h4>至少在兩個工具中共同報導的基因：</h4>
+        <div class="gene-list">
+            <p>
+                'MEF2C', 'RTN4', 'VASH2', 'LYRM7', 'ARHGAP24', 'CBX4', 'PDZD8', 'UBE2D3', 'KLHL15', 'KLF3', 'PAN3', 'GAB1', 'TGFBR2', 'OLR1', 'NEGR1', 'OSR1', 'SKI', 'STAG2', 'RAPGEF6', 'GLCCI1', 'XKR6', 'ANKRD46', 'HNRNPU', 'CD47', 'MAP3K1', 'FAM46A', 'SAMD8', 'RASEF', 'FAM126B', 'NIPAL1', 'ETNK1', 'RHOB', 'MTAP', 'VHL', 'BNC2', 'SLC17A5', 'GPC4', 'FMN1', 'SOX6', 'ARMCX1', 'IL12A', 'NFIA', 'YAP1', 'TET1', 'TBL1XR1', 'CSRNP3', 'BCL7A', 'ZNF35', 'SGK3', 'MAP3K2', 'ST6GAL1', 'TESK2', 'PTPN14', 'C17orf75', 'PLEKHA1', 'BMP3', 'BTG2', 'CCL1', 'MSH2', 'RETSAT', 'LMBR1', 'HGF', 'SPRY1', 'ATP11B', 'MEIS1', 'EPM2A', 'SESTD1', 'FAM3C', 'ZFP36L2', 'BCL2', 'TBX2', 'KAT6A', 'TIMP3', 'PLD1', 'WNK3', 'KLF5', 'MATN2', 'DDAH1', 'SOX7', 'CD69', 'HIC2', 'PRPF39', 'ZCCHC3', 'CHIC1', 'DNM1L', 'MPRIP', 'SOCS6', 'LCORL', 'POLR3B', 'SMARCD1', 'CLIP4', 'DAG1', 'ZBTB47', 'KRIT1', 'MSX1', 'GID4', 'SPRY2', 'NR2C2', 'YOD1', 'WWP1', 'MTPN', 'ZNF367', 'EHD1', 'FGF18', 'SLC30A10', 'RASA1', 'APAF1', 'RFFL', 'MIA3', 'TNFAIP3', 'EPHA4', 'ZADH2', 'KBTBD7', 'SASH1', 'FBXO28', 'SCRN1', 'ROBO2', 'FOXO3', 'ST3GAL6', 'BCL11B', 'LEMD3', 'CDK2AP1', 'SPRY4', 'RAB22A', 'MKNK2', 'ABCD3', 'ITGB8', 'PDZD2', 'ATXN10', 'PCSK6', 'ELOVL7', 'TNRC6B', 'ASF1A', 'PHF14', 'FGD4', 'RNF111', 'SLC9A6', 'SESN1', 'GNAQ', 'DCAF7', 'ACBD5', 'CREBRF', 'SUZ12', 'PURG', 'JAG1', 'SLMAP', 'RMND5A', 'RASA2', 'FASLG', 'CNOT6', 'ACVR1C', 'FRS2', 'MALT1', 'TMEM170A', 'KLF12', 'TGFB2', 'ZSWIM6', 'PCBP2', 'LATS1', 'AP1AR', 'CDK6', 'PITX2', 'THRB', 'SOCS5', 'PBRM1', 'SKP2', 'RPS6KA3', 'SATB1', 'ELF2', 'PELI1', 'NFIB', 'MTMR12', 'PPP1R3A', 'GPR64', 'SACM1L', 'ZNF207', 'E2F3', 'ACVR2A', 'CCR7', 'PRRG4', 'STAT3', 'NETO2', 'PLAG1', 'RBMS3', 'FAM63B', 'IL6R', 'TRAPPC8', 'CDC25A', 'SCML2', 'PIKFYVE', 'PRRC1', 'LANCL1', 'PAIP2B', 'UBR3', 'FBXO11', 'PURA', 'ATF7IP', 'AIF1L', 'PRKCE', 'PRICKLE2', 'LRRC57', 'GATAD2B', 'AGO2', 'SOX5', 'S100A10', 'STRN', 'ZNF217', 'WWC2', 'MBLAC2', 'CASKIN1', 'CEP97', 'PCBP1', 'CCL20', 'JPH1', 'MBNL3', 'PURB', 'PPARA', 'FAM20B', 'TAF5', 'ARHGEF12', 'SPPL3', 'ZNF326', 'NFAT5', 'RECK', 'RP2', 'SOWAHC', 'NIPBL', 'RBPJ', 'CENPQ', 'MEGF9', 'DUSP8', 'HNRNPK', 'NCAPG', 'RSAD2', 'DNAJC16', 'EIF4EBP2', 'SLC16A10', 'KBTBD6', 'RAB11A', 'PAG1', 'RNF103', 'RALGPS2', 'AKIRIN1', 'AGO4', 'HECTD1', 'MBNL1', 'TRIM33', 'GTPBP10', 'ALX1', 'GLIS2', 'GABRB2', 'BEST3', 'KLF6', 'PM20D2', 'ATP2B4', 'MAP2K3', 'TGFBI', 'CPEB3', 'SMAD7', 'ALX4', 'PGRMC2', 'COL4A1', 'PRPF4B', 'ADNP', 'TLR4', 'HIPK3', 'KLF9', 'STK40', 'TAGAP', 'KLHL42', 'VCL', 'NBEA', 'ESYT2', 'NAA50', 'TRPM7', 'ZBTB8A', 'SRL', 'SLC2A4RG', 'FAM13A', 'DDX55', 'EIF2S1', 'TNPO1', 'PDCD4', 'TPRG1L', 'SOX2', 'BMPR2', 'UNC80', 'LIFR', 'PSRC1', 'TIAM1', 'AP3M1', 'PIK3R1', 'NTF3', 'PPP1R3B', 'EDIL3', 'RASGRP1', 'CADM2', 'EPM2AIP1', 'BAHD1', 'ZNF704'
+            </p>
+        </div>
+
+        <h4>在三個工具中共同報導的基因：</h4>
+        <div class="gene-list">
+            <p>
+                'SESN1', 'MEF2C', 'RTN4', 'VASH2', 'SUZ12', 'JAG1', 'RMND5A', 'ARHGAP24', 'CBX4', 'FASLG', 'KLHL15', 'PAN3', 'FRS2', 'TMEM170A', 'OLR1', 'OSR1', 'TGFB2', 'STAG2', 'PBRM1', 'SKP2', 'GLCCI1', 'SATB1', 'ANKRD46', 'PELI1', 'MAP3K1', 'NFIB', 'MTMR12', 'RASEF', 'STAT3', 'IL12A', 'NFIA', 'TET1', 'IL6R', 'CDC25A', 'BCL7A', 'ST6GAL1', 'TESK2', 'PLEKHA1', 'UBR3', 'FBXO11', 'BTG2', 'CCL1', 'PRKCE', 'MSH2', 'LRRC57', 'SOX5', 'STRN', 'SPRY1', 'PCBP1', 'CCL20', 'JPH1', 'PURB', 'NFAT5', 'RECK', 'RP2', 'SOWAHC', 'TIMP3', 'KLF5', 'DUSP8', 'HNRNPK', 'SLC16A10', 'KBTBD6', 'ZCCHC3', 'PAG1', 'RALGPS2', 'AGO4', 'MBNL1', 'KRIT1', 'GID4', 'SPRY2', 'KLF6', 'YOD1', 'MAP2K3', 'TGFBI', 'CPEB3', 'SMAD7', 'WWP1', 'COL4A1', 'ZNF367', 'ADNP', 'HIPK3', 'KLHL42', 'RASA1', 'NAA50', 'EPHA4', 'TNPO1', 'SCRN1', 'PDCD4', 'BMPR2', 'LIFR', 'TIAM1', 'PIK3R1', 'NTF3', 'PPP1R3B', 'TNRC6B', 'RASGRP1'
+            </p>
+        </div>
+
+        <h3>Reactome Pathways Overview</h3>
+        <figure>
+            <img src="PathwaysOverview.png" alt="Reactome Pathways Overview">
+            <figcaption>
+                圖 2：Reactome Pathways Overview 圖，展示 hsa-miR-21-5p 在多層次的 pathways 中的關聯性。黃色連線表示顯著 pathways，涵蓋信號傳導、基因表達調控、代謝過程、細胞周期與增殖，以及免疫系統等功能路徑。
+            </figcaption>
+        </figure>
+
+        <h3>結論</h3>
+        <p>
+            根據分析結果，hsa-miR-21-5p 參與了多個關鍵的 pathways，包括信號傳導、基因表達調控和免疫反應。這些 pathways 的研究有助於進一步探索其在疾病，特別是癌症中的調控角色。
+        </p>
+    </div>
+</div>
 <script>
     const arrows = document.querySelectorAll('.arrow');
     arrows.forEach(arrow => {
