@@ -624,6 +624,13 @@
                 圖 6：g:Profiler Overview 分析，展示 hsa-miR-21-5p 基因相關功能條目在 GO-BP、GO-MF 和 KEGG pathways 中的分佈情況。顯著條目以紅色圓圈標示。
             </figcaption>
         </figure>
+        <h3>4.2 Detailed Results 圖</h3>
+        <figure>
+            <img src="https://i.imgur.com/XfgwJhd.jpeg" alt="g:Profiler Detailed Results">
+            <figcaption>
+                圖 7：g:Profiler Detailed Results，顯示顯著功能條目如 GO-BP、GO-MF 和 KEGG pathways 的詳細分析結果。紅色格子代表顯著條目。
+            </figcaption>
+        </figure>
     </div>
 </div>
 <script>
