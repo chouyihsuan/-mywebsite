@@ -561,7 +561,7 @@
         <h2>2. Reactome Pathways 分析</h2>
         <h3>2.1 Pathways Overview</h3>
         <figure>
-            <img src="https://i.imgur.com/E49frcr.png" alt="Reactome Pathways Overview">
+            <img src="https://i.imgur.com/b70Fm60.png" alt="Reactome Pathways Overview">
             <figcaption>
                 圖 2：Reactome Pathways Overview，展示 hsa-miR-21-5p 與多層次的 Pathways 關聯。
                 結果顯示 hsa-miR-21-5p 可能參與廣泛的信號傳導與基因調控機制。
@@ -570,7 +570,7 @@
 
         <h3>2.2 Signaling by Interleukins Pathway</h3>
         <figure>
-            <img src="https://i.imgur.com/MxeGSUa.png" alt="Reactome Pathway Analysis">
+            <img src="https://i.imgur.com/E49frcr.png" alt="Reactome Pathway Analysis">
             <figcaption>
                 圖 3：Reactome pathway 分析中，Signaling by Interleukins pathway 最為顯著，與免疫調控相關。此 pathway 的數據如下：
                 <ul>
@@ -616,7 +616,6 @@
                 此 pathway 顯示 hsa-miR-21-5p 與代謝調控及炎症反應的潛在關聯。
             </figcaption>
         </figure>
-
         <h2>4. g:Profiler 分析（待補充）</h2>
         <p>待補充 g:Profiler 的分析結果，包括顯著 pathway 及相關圖表展示。</p>
     </div>
