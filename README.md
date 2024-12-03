@@ -633,6 +633,67 @@
         </figure>
     </div>
 </div>
+<div class="container">
+    <h3 class="arrow down">作業八 - CRC dE Genes Analysis</h3>
+    <div class="content">
+        <h2>1. 研究問題</h2>
+        <p>本次分析的目的是透過 GSEA（Gene Set Enrichment Analysis）了解在結直腸癌（CRC）中失調基因（deregulated genes）所富集的主要通路，並進一步進行 Leading Edge Analysis，以識別關鍵基因以供深入研究。</p>
+
+        <h2>2. 方法與條件</h2>
+        <ul>
+            <li>資料來源：GSE32323</li>
+            <li>基因篩選條件：
+                <ul>
+                    <li>p 值 < 0.05</li>
+                    <li>|Fold Change| > 2</li>
+                </ul>
+            </li>
+            <li>使用 GSEA 分析，測試以下基因集：
+                <ul>
+                    <li>Top 500（上調和下調基因合併）</li>
+                    <li>篩選後的所有基因</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>3. 結果</h2>
+        <figure>
+            <img src="https://i.imgur.com/V6Xc0LA.png" alt="GSEA Result Enrichment Plot 1">
+            <figcaption>圖 1：第一個顯著通路的富集圖（Enrichment Plot）。此圖顯示結直腸癌中顯著基因集在某一通路中的富集情況。</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://i.imgur.com/mhmOxNa.png" alt="GSEA Result Enrichment Plot 2">
+            <figcaption>圖 2：第二個顯著通路的富集圖（Enrichment Plot）。此圖顯示另一顯著基因集在結直腸癌中的關鍵富集通路。</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://i.imgur.com/DGNsYDl.png" alt="Gene Distribution Plot">
+            <figcaption>圖 3：基因表達分佈圖（Distribution）。此圖顯示篩選基因集的表達變化，包括上調和下調基因的相對分佈。</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://i.imgur.com/HCMd3lx.png" alt="Heatmap of Selected Genes">
+            <figcaption>圖 4：篩選基因的 Heatmap。此熱圖顯示結直腸癌相關基因的表達模式，區分腫瘤和正常組織。</figcaption>
+        </figure>
+
+        <h3>Leading Edge Analysis</h3>
+        <p>進行領先邊緣分析（Leading Edge Analysis），篩選出對這些通路最具貢獻的基因集。以下為篩選出的部分關鍵基因：</p>
+        <ul>
+            <li>Gene 1: **TP53**</li>
+            <li>Gene 2: **KRAS**</li>
+            <li>Gene 3: **APC**</li>
+            <li>Gene 4: **SMAD4**</li>
+            <li>Gene 5: **PIK3CA**</li>
+            <li>Gene 6: **CTNNB1**</li>
+        </ul>
+
+        <h2>4. 討論與結論</h2>
+        <p>GSEA 結果顯示，結直腸癌中失調基因與癌症相關的信號通路高度相關，尤其是 **Wnt signaling pathway** 和 **PI3K-Akt signaling pathway**。領先邊緣分析進一步確認了幾個重要基因，如 **TP53** 和 **KRAS**，這些基因在腫瘤形成和癌症進展中發揮重要作用。</p>
+        <p>基因表達分佈圖和 Heatmap 顯示了篩選基因的分佈及其在腫瘤和正常組織中的表達差異，為理解基因在結直腸癌中的角色提供了基礎。</p>
+        <p>未來的研究將聚焦於這些關鍵基因的功能驗證，以及它們在結直腸癌中的臨床應用潛力。</p>
+    </div>
+</div>
 <script>
     const arrows = document.querySelectorAll('.arrow');
     arrows.forEach(arrow => {
