@@ -682,6 +682,11 @@
             <figcaption>圖 4：第二組基因的表達分佈圖（Distribution）。此圖進一步展示篩選基因的表達模式。</figcaption>
         </figure>
 
+        <figure>
+            <img src="https://i.imgur.com/CTnQ7Ly.png" alt="Heatmap of Selected Genes">
+            <figcaption>圖 5：篩選基因的 Heatmap。此熱圖呈現基因在腫瘤與正常組織中的表達模式差異。</figcaption>
+        </figure>
+
         <h3>Leading Edge Analysis</h3>
         <p>透過領先邊緣分析（Leading Edge Analysis），我們識別出對顯著通路具有主要貢獻的基因集。雖然圖中未標明具體基因，但結果表明 Wnt 和 PI3K-Akt 信號通路為結直腸癌中顯著失調的核心路徑。</p>
         <ul>
@@ -703,7 +708,6 @@
         <p>這些信號通路在結直腸癌的發展中可能發揮重要作用，未來可作為診斷標誌物或潛在治療靶點進一步探索。</p>
     </div>
 </div>
-
 <script>
     const arrows = document.querySelectorAll('.arrow');
     arrows.forEach(arrow => {
