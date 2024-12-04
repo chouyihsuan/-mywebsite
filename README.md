@@ -663,23 +663,23 @@
 
         <h2>3. 分析結果</h2>
         <figure>
-            <img src="https://i.imgur.com/V6Xc0LA.png" alt="GSEA Result Enrichment Plot 1">
-            <figcaption>圖 1：顯著通路的富集圖（Enrichment Plot）。此圖展示基因集中對特定通路的富集情況。</figcaption>
+            <img src="https://i.imgur.com/5p4bhJ7.png" alt="GSEA Result Enrichment Plot 1">
+            <figcaption>圖 1：第一個顯著通路的富集圖（Enrichment Plot）。此圖展示基因集中對特定通路的富集情況。</figcaption>
         </figure>
 
         <figure>
-            <img src="https://i.imgur.com/mhmOxNa.png" alt="GSEA Result Enrichment Plot 2">
+            <img src="https://i.imgur.com/RtGgsOO.png" alt="GSEA Result Enrichment Plot 2">
             <figcaption>圖 2：第二個顯著通路的富集圖（Enrichment Plot）。該通路與腫瘤細胞信號傳導密切相關。</figcaption>
         </figure>
 
         <figure>
-            <img src="https://i.imgur.com/DGNsYDl.png" alt="Gene Distribution Plot">
-            <figcaption>圖 3：基因表達分佈圖（Distribution）。此圖顯示上調與下調基因的分佈情況。</figcaption>
+            <img src="https://i.imgur.com/eZmKh16.png" alt="Gene Distribution Plot 1">
+            <figcaption>圖 3：第一組基因的表達分佈圖（Distribution）。此圖顯示上調與下調基因的分佈情況。</figcaption>
         </figure>
 
         <figure>
-            <img src="https://i.imgur.com/HCMd3lx.png" alt="Heatmap of Selected Genes">
-            <figcaption>圖 4：篩選基因的 Heatmap。此熱圖呈現基因在腫瘤與正常組織中的表達模式差異。</figcaption>
+            <img src="https://i.imgur.com/6MmQcf7.png" alt="Gene Distribution Plot 2">
+            <figcaption>圖 4：第二組基因的表達分佈圖（Distribution）。此圖進一步展示篩選基因的表達模式。</figcaption>
         </figure>
 
         <h3>Leading Edge Analysis</h3>
@@ -703,6 +703,7 @@
         <p>這些信號通路在結直腸癌的發展中可能發揮重要作用，未來可作為診斷標誌物或潛在治療靶點進一步探索。</p>
     </div>
 </div>
+
 <script>
     const arrows = document.querySelectorAll('.arrow');
     arrows.forEach(arrow => {
